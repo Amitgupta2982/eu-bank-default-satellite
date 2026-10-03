@@ -1,0 +1,1796 @@
+exercise,Country,Label,ISO_code
+2021,0,Total / No breakdown ,00
+2021,1,Austria,AT
+2021,2,Belgium,BE
+2021,3,Bulgaria,BG
+2021,4,Cyprus,CY
+2021,5,Czech Republic,CZ
+2021,6,Denmark,DK
+2021,7,Estonia,EE
+2021,8,Finland,FI
+2021,9,France,FR
+2021,10,Germany,DE
+2021,11,Greece,GR
+2021,12,Hungary,HU
+2021,13,Iceland,IS
+2021,14,Ireland,IE
+2021,15,Italy,IT
+2021,16,Latvia,LV
+2021,17,Liechtenstein,LI
+2021,18,Lithuania,LT
+2021,19,Luxembourg,LU
+2021,20,Malta,MT
+2021,21,Netherlands,NL
+2021,22,Norway,NO
+2021,23,Poland,PL
+2021,24,Portugal,PT
+2021,25,Romania,RO
+2021,26,Slovakia,SK
+2021,27,Slovenia,SI
+2021,28,Spain,ES
+2021,29,Sweden,SE
+2021,30,United Kingdom,GB
+2021,31,Brazil,BR
+2021,32,Chile,CL
+2021,33,China,CN
+2021,34,CROATIA,HR
+2021,35,Hong Kong,HK
+2021,36,India,IN
+2021,37,Japan,JP
+2021,38,Mexico,MX
+2021,39,Peru,PE
+2021,40,Russian Federation,RU
+2021,41,Switzerland,CH
+2021,42,Turkey,TR
+2021,43,United States,US
+2021,44,International organisations,IZ
+2021,50,Afghanistan,AF
+2021,51,Albania,AL
+2021,52,Algeria,DZ
+2021,53,American Samoa,AS
+2021,54,Andorra,AD
+2021,55,Angola,AO
+2021,56,Anguilla,AI
+2021,57,Antigua and Barbuda,AG
+2021,58,Argentina,AR
+2021,59,Armenia,AM
+2021,60,Aruba,AW
+2021,61,Australia,AU
+2021,62,Azerbaijan,AZ
+2021,63,Bahamas,BS
+2021,64,Bahrain,BH
+2021,65,Bangladesh,BD
+2021,66,Barbados,BB
+2021,67,Belarus,BY
+2021,68,Belize,BZ
+2021,69,Benin,BJ
+2021,70,Bermuda,BM
+2021,71,Bhutan,BT
+2021,72,Bolivia - Plurinational state of,BO
+2021,73,Bonaire - Sint Eustatius and Saba,BQ
+2021,74,Bosnia and Herzegowina,BA
+2021,75,Botswana,BW
+2021,76,British Indian Ocean Territory,IO
+2021,77,Brunei Darussalam,BN
+2021,78,Burkina Faso,BF
+2021,79,Burundi,BI
+2021,80,Cambodia,KH
+2021,81,Cameroon,CM
+2021,82,Canada,CA
+2021,83,Cape Verde,CV
+2021,84,Cayman Islands,KY
+2021,85,Central African Republic,CF
+2021,86,Chad,TD
+2021,87,Channel Islands,CS
+2021,88,Colombia,CO
+2021,89,Comoros,KM
+2021,90,CONGO - The Democratic Republic of the,CD
+2021,91,CONGO,CG
+2021,92,Cook Islands,CK
+2021,93,Costa Rica,CR
+2021,94,Cote d_Ivoire,CI
+2021,95,Cuba,CU
+2021,96,Curacao,CW
+2021,97,Djibouti,DJ
+2021,98,Dominica,DM
+2021,99,Dominican Republic,DO
+2021,100,Ecuador,EC
+2021,101,Egypt,EG
+2021,102,El Salvador,SV
+2021,103,Equatorial Guinea,GQ
+2021,104,Eritrea,ER
+2021,105,Ethiopia,ET
+2021,106,Faroe Islands,FO
+2021,107,Falkland Islands (MALVINAS),FK
+2021,108,Fiji,FJ
+2021,109,French Guiana,GF
+2021,110,French Polynesia,PF
+2021,111,Macedonia - The former Yugoslav Republic of,MK
+2021,112,Gabon,GA
+2021,113,Gambia,GM
+2021,114,Georgia,GE
+2021,115,Ghana,GH
+2021,116,Gibraltar,GI
+2021,117,Greenland,GL
+2021,118,Grenada,GD
+2021,119,Guadeloupe,GP
+2021,120,Guam,GU
+2021,121,Guatemala,GT
+2021,122,Guinea,GN
+2021,123,Guinea-Bissau,GW
+2021,124,Guyana,GY
+2021,125,Haiti,HT
+2021,126,Holy See (Vatican City State),VA
+2021,127,Honduras,HN
+2021,128,Indonesia,ID
+2021,129,Iran (Islamic Republic of),IR
+2021,130,Iraq,IQ
+2021,131,Isle of Man,IM
+2021,132,Israel,IL
+2021,133,Jamaica,JM
+2021,134,Jordan,JO
+2021,135,Kazakhstan,KZ
+2021,136,Kenya,KE
+2021,137,Kiribati,KI
+2021,138,Korea Dem_People_Rep_of,KP
+2021,139,Korea Republic_of,KR
+2021,140,Kosovo,XK
+2021,141,Kuwait,KW
+2021,142,Kyrgyzstan,KG
+2021,143,Lao P.D.R.,LA
+2021,144,Lebanon,LB
+2021,145,Lesotho,LS
+2021,146,Liberia,LR
+2021,147,Libya,LY
+2021,148,Macao,MO
+2021,149,Madagascar,MG
+2021,150,Malawi,MW
+2021,151,Malaysia,MY
+2021,152,Maldives,MV
+2021,153,Mali,ML
+2021,154,Marshall Islands,MH
+2021,155,Martinique,MQ
+2021,156,Mauritania,MR
+2021,157,Mauritius,MU
+2021,158,Mayotte,YT
+2021,159,Micronesia - Federated States of,FM
+2021,160,Moldova,MD
+2021,161,Monaco,MC
+2021,162,Mongolia,MN
+2021,163,Montenegro,ME
+2021,164,Montserrat,MS
+2021,165,Morocco,MA
+2021,166,Mozambique,MZ
+2021,167,Myanmar,MM
+2021,168,Namibia,NA
+2021,169,Nauru,NR
+2021,170,Nepal,NP
+2021,171,New Caledonia,NC
+2021,172,New Zealand,NZ
+2021,173,Nicaragua,NI
+2021,174,Niger,NE
+2021,175,Nigeria,NG
+2021,176,Niue,NU
+2021,177,Northern Mariana Islands,MP
+2021,178,Oman,OM
+2021,179,Pakistan,PK
+2021,180,Palau,PW
+2021,181,Panama,PA
+2021,182,Papua New Guinea,PG
+2021,183,Paraguay,PY
+2021,184,Philippines,PH
+2021,185,Pitcairn,PN
+2021,186,Puerto Rico,PR
+2021,187,Qatar,QA
+2021,188,Reunion,RE
+2021,189,Rwanda,RW
+2021,190,Saint Helena,SH
+2021,191,Saint Kitts and Nevis,KN
+2021,192,Saint Lucia,LC
+2021,193,Saint Martin,MF
+2021,194,Saint Vincent and the Grenadines,VC
+2021,195,Saint-Pierre and Miquelon,PM
+2021,196,Samoa,WS
+2021,197,San Marino,SM
+2021,198,Sao Tome and Principe,ST
+2021,199,Saudi Arabia,SA
+2021,200,Senegal,SN
+2021,201,Serbia,RS
+2021,202,Seychelles,SC
+2021,203,Sierra Leone,SL
+2021,204,Singapore,SG
+2021,205,Sint Maarten,SX
+2021,206,Solomon Islands,SB
+2021,207,Somalia,SO
+2021,208,South Africa,ZA
+2021,209,South Sudan,SS
+2021,210,Sri Lanka,LK
+2021,211,Sudan,SD
+2021,212,Suriname,SR
+2021,213,Svalbard and Jan Mayen Islands,SJ
+2021,214,Swaziland,SZ
+2021,215,Syria,SY
+2021,216,Taiwan Province of China,TW
+2021,217,Tajikistan,TJ
+2021,218,Tanzania,TZ
+2021,219,Thailand,TH
+2021,220,Timor-Leste,TL
+2021,221,Togo,TG
+2021,222,Tokelau,TK
+2021,223,Tonga,TO
+2021,224,Trinidad and Tobago,TT
+2021,225,Tunisia,TN
+2021,226,Turkmenistan,TM
+2021,227,Turks and Caicos Islands,TC
+2021,228,Tuvalu,TV
+2021,229,Uganda,UG
+2021,230,Ukraine,UA
+2021,231,United Arab Emirates,AE
+2021,232,United States Minor Outlying Islands,UM
+2021,233,Uruguay,UY
+2021,234,Uzbekistan,UZ
+2021,235,Vanuatu,VU
+2021,236,Venezuela,VE
+2021,237,Vietnam,VN
+2021,238,Wallis and Futuna Islands,WF
+2021,239,West Bank and Gaza,WE
+2021,240,Western Sahara,EH
+2021,241,Yemen,YE
+2021,242,Zambia,ZM
+2021,243,Zimbabwe,ZW
+2021,244,Other,O1
+2021,245,Other Central and eastern Europe countries non EEA,O2
+2021,246,Middle East,O3
+2021,247,Latin America and the Caribbean,O4
+2021,248,Africa,O5
+2021,249,Other advanced economies non EEA,O6
+2021,250,NORFOLK ISLAND,NF
+2021,251,PALESTINIAN TERRITORY  OCCUPIED,PS
+2021,252,SAINT BARTHÉLEMY,BL
+2021,253,SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS,GS
+2021,254,VIRGIN ISLANDS  BRITISH,VG
+2021,255,VIRGIN ISLANDS  U.S.,VI
+2021,256,ÅLAND ISLANDS,AX
+2021,257,ANTARCTICA,AQ
+2021,258,BOUVET ISLAND,BV
+2021,259,CHRISTMAS ISLAND,CX
+2021,260,COCOS (KEELING) ISLANDS,CC
+2021,261,FRENCH SOUTHERN TERRITORIES,TF
+2021,262,GUERNSEY,GG
+2021,263,HEARD ISLAND AND MCDONALD ISLANDS,HM
+2021,264,JERSEY,JE
+2021,701,Banque Centrale des États de l’Afrique de l’Ouest (BCEAO),_5O
+2021,702,CASDB (Central African States’ Development Bank),_5P
+2021,703,African Development Fund,_5Q
+2021,704,Asian Development Fund,_5R
+2021,705,Fonds spécial unifié de développement,_5S
+2021,706,CABEI (Central American Bank for Economic Integration),_5T
+2021,707,ADC (Andean Development Corporation),_5U
+2021,708,Other International Organisations (financial institutions),_5V
+2021,709,Banque des États de l’Afrique centrale (BEAC),_5W
+2021,710,Communauté Économique et Monétaire de l’Afrique Centrale (CEMAC),_5X
+2021,711,Eastern Caribbean Currency Union (ECCU),_5Y
+2021,712,Other International Financial Organisations n.i.e.,_5Z
+2021,713,Other International Organisations (non-financial institutions),_6A
+2021,714,NATO (North Atlantic Treaty Organisation),_6B
+2021,715,Council of Europe,_6C
+2021,716,ICRC (International Committee of the Red Cross),_6D
+2021,717,ESA (European Space Agency),_6E
+2021,718,EPO (European Patent Office),_6F
+2021,719,EUROCONTROL (European Organisation for the Safety of Air Navigation),_6G
+2021,720,EUTELSAT (European Telecommunications Satellite Organisation),_6H
+2021,721,West African Economic and Monetary Union (WAEMU),_6I
+2021,722,INTELSAT (International Telecommunications Satellite Organisation),_6J
+2021,723,EBU/UER (European Broadcasting Union/Union européenne de radio-télévision),_6K
+2021,724,EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites),_6L
+2021,725,ESO (European Southern Observatory),_6M
+2021,726,ECMWF (European Centre for Medium-Range Weather Forecasts),_6N
+2021,727,EMBL (European Molecular Biology Laboratory),_6O
+2021,728,CERN (European Organisation for Nuclear Research),_6P
+2021,729,IOM (International Organisation for Migration),_6Q
+2021,730,Islamic Development Bank (IDB),_6R
+2021,731,Eurasian Development Bank (EDB),_6S
+2021,732,Paris Club Creditor Institutions,_6T
+2021,733,Council of Europe Development Bank (CEB),_6U
+2021,734,Other International Non-Financial Organisations n.i.e.,_6Z
+2021,735,International Organisations excluding European Union Institutions,_7Z
+2021,736,International Union of Credit and Investment Insurers,_8A
+2021,737,Multilateral Lending Agencies,_9B
+2021,738,International organisations (as pseudo geographic area),_1A
+2021,739,United Nations organisations,_1B
+2021,740,IMF (International Monetary Fund),_1C
+2021,741,WTO (World Trade Organisation),_1D
+2021,742,IBRD (International Bank for Reconstruction and Development),_1E
+2021,743,IDA (International Development Association),_1F
+2021,744,Other UN Organisations (includes 1H  1J-1T),_1G
+2021,745,UNESCO (United Nations Educational  Scientific and Cultural Organisation),_1H
+2021,746,FAO (Food and Agriculture Organisation),_1J
+2021,747,WHO (World Health Organisation),_1K
+2021,748,IFAD (International Fund for Agricultural Development),_1L
+2021,749,IFC (International Finance Corporation),_1M
+2021,750,MIGA (Multilateral Investment Guarantee Agency),_1N
+2021,751,UNICEF (United Nations Children’s Fund),_1O
+2021,752,UNHCR (United Nations High Commissioner for Refugees),_1P
+2021,753,UNRWA (United Nations Relief and Works Agency for Palestine),_1Q
+2021,754,IAEA (International Atomic Energy Agency),_1R
+2021,755,ILO (International Labour Organisation),_1S
+2021,756,ITU (International Telecommunication Union),_1T
+2021,757,Rest of UN Organisations n.i.e.,_1Z
+2021,758,European Union Institutions  Organs and Organisms (excluding ECB),_4A
+2021,759,EMS (European Monetary System),_4B
+2021,760,EIB (European Investment Bank),_4C
+2021,761,EC (European Commission),_4D
+2021,762,EDF (European Development Fund),_4E
+2021,763,European Central Bank,_4F
+2021,764,EIF (European Investment Fund),_4G
+2021,765,ECSC (European Coal and Steel Community),_4H
+2021,766,Neighbourhood Investment Facility,_4I
+2021,767,FEMIP (Facility for Euro-Mediterranean Investment and Partnership),_4V
+2021,768,Other EU Institutions  Organs and Organisms covered by the General budget,_4J
+2021,769,European Parliament,_4K
+2021,770,Council of the European Union,_4L
+2021,771,Court of Justice,_4M
+2021,772,Court of Auditors,_4N
+2021,773,European Council,_4O
+2021,774,Economic and Social Committee,_4P
+2021,775,Committee of the Regions,_4Q
+2021,776,EU-Africa Infrastructure Trust Fund,_4R
+2021,777,European Stability Mechanism (ESM),_4S
+2021,778,Joint Committee of the European Supervisory Authorities (ESAs),_4T
+2021,779,All the European Union Institutions financed via the EU Budget,_4W
+2021,780,All the European Union Institutions not financed via the EU Budget,_4X
+2021,781,All the European Union Institutions,_4Y
+2021,782,Other small European Union Institutions (Ombudsman  Data Protection Supervisor etc.),_4Z
+2021,783,OECD (Organisation for Economic Co-operation and Development),_5A
+2021,784,BIS (Bank for International Settlements),_5B
+2021,785,IADB (Inter-American Development Bank),_5C
+2021,786,AfDB (African Development Bank),_5D
+2021,787,AsDB (Asian Development Bank),_5E
+2021,788,EBRD (European Bank for Reconstruction and Development),_5F
+2021,789,IIC (Inter-American Investment Corporation),_5G
+2021,790,NIB (Nordic Investment Bank),_5H
+2021,791,Eastern Caribbean Central Bank (ECCB),_5I
+2021,792,IBEC (International Bank for Economic Co-operation),_5J
+2021,793,IIB (International Investment Bank),_5K
+2021,794,CDB (Caribbean Development Bank),_5L
+2021,795,AMF (Arab Monetary Fund),_5M
+2021,796,BADEA (Banque arabe pour le développement économique en Afrique),_5N
+2021,901,Countries not relevant for MKR purposes,x5
+2021,902,Not applicable/All geographical areas,x0
+2021,903,Other Countries,x28
+2022,0,Total / No breakdown ,00
+2022,1,Austria,AT
+2022,2,Belgium,BE
+2022,3,Bulgaria,BG
+2022,4,Cyprus,CY
+2022,5,Czech Republic,CZ
+2022,6,Denmark,DK
+2022,7,Estonia,EE
+2022,8,Finland,FI
+2022,9,France,FR
+2022,10,Germany,DE
+2022,11,Greece,GR
+2022,12,Hungary,HU
+2022,13,Iceland,IS
+2022,14,Ireland,IE
+2022,15,Italy,IT
+2022,16,Latvia,LV
+2022,17,Liechtenstein,LI
+2022,18,Lithuania,LT
+2022,19,Luxembourg,LU
+2022,20,Malta,MT
+2022,21,Netherlands,NL
+2022,22,Norway,NO
+2022,23,Poland,PL
+2022,24,Portugal,PT
+2022,25,Romania,RO
+2022,26,Slovakia,SK
+2022,27,Slovenia,SI
+2022,28,Spain,ES
+2022,29,Sweden,SE
+2022,30,United Kingdom,GB
+2022,31,Brazil,BR
+2022,32,Chile,CL
+2022,33,China,CN
+2022,34,CROATIA,HR
+2022,35,Hong Kong,HK
+2022,36,India,IN
+2022,37,Japan,JP
+2022,38,Mexico,MX
+2022,39,Peru,PE
+2022,40,Russian Federation,RU
+2022,41,Switzerland,CH
+2022,42,Turkey,TR
+2022,43,United States,US
+2022,44,International organisations,IZ
+2022,50,Afghanistan,AF
+2022,51,Albania,AL
+2022,52,Algeria,DZ
+2022,53,American Samoa,AS
+2022,54,Andorra,AD
+2022,55,Angola,AO
+2022,56,Anguilla,AI
+2022,57,Antigua and Barbuda,AG
+2022,58,Argentina,AR
+2022,59,Armenia,AM
+2022,60,Aruba,AW
+2022,61,Australia,AU
+2022,62,Azerbaijan,AZ
+2022,63,Bahamas,BS
+2022,64,Bahrain,BH
+2022,65,Bangladesh,BD
+2022,66,Barbados,BB
+2022,67,Belarus,BY
+2022,68,Belize,BZ
+2022,69,Benin,BJ
+2022,70,Bermuda,BM
+2022,71,Bhutan,BT
+2022,72,Bolivia - Plurinational state of,BO
+2022,73,Bonaire - Sint Eustatius and Saba,BQ
+2022,74,Bosnia and Herzegowina,BA
+2022,75,Botswana,BW
+2022,76,British Indian Ocean Territory,IO
+2022,77,Brunei Darussalam,BN
+2022,78,Burkina Faso,BF
+2022,79,Burundi,BI
+2022,80,Cambodia,KH
+2022,81,Cameroon,CM
+2022,82,Canada,CA
+2022,83,Cape Verde,CV
+2022,84,Cayman Islands,KY
+2022,85,Central African Republic,CF
+2022,86,Chad,TD
+2022,87,Channel Islands,CS
+2022,88,Colombia,CO
+2022,89,Comoros,KM
+2022,90,CONGO - The Democratic Republic of the,CD
+2022,91,CONGO,CG
+2022,92,Cook Islands,CK
+2022,93,Costa Rica,CR
+2022,94,Cote d_Ivoire,CI
+2022,95,Cuba,CU
+2022,96,Curacao,CW
+2022,97,Djibouti,DJ
+2022,98,Dominica,DM
+2022,99,Dominican Republic,DO
+2022,100,Ecuador,EC
+2022,101,Egypt,EG
+2022,102,El Salvador,SV
+2022,103,Equatorial Guinea,GQ
+2022,104,Eritrea,ER
+2022,105,Ethiopia,ET
+2022,106,Faroe Islands,FO
+2022,107,Falkland Islands (MALVINAS),FK
+2022,108,Fiji,FJ
+2022,109,French Guiana,GF
+2022,110,French Polynesia,PF
+2022,111,Macedonia - The former Yugoslav Republic of,MK
+2022,112,Gabon,GA
+2022,113,Gambia,GM
+2022,114,Georgia,GE
+2022,115,Ghana,GH
+2022,116,Gibraltar,GI
+2022,117,Greenland,GL
+2022,118,Grenada,GD
+2022,119,Guadeloupe,GP
+2022,120,Guam,GU
+2022,121,Guatemala,GT
+2022,122,Guinea,GN
+2022,123,Guinea-Bissau,GW
+2022,124,Guyana,GY
+2022,125,Haiti,HT
+2022,126,Holy See (Vatican City State),VA
+2022,127,Honduras,HN
+2022,128,Indonesia,ID
+2022,129,Iran (Islamic Republic of),IR
+2022,130,Iraq,IQ
+2022,131,Isle of Man,IM
+2022,132,Israel,IL
+2022,133,Jamaica,JM
+2022,134,Jordan,JO
+2022,135,Kazakhstan,KZ
+2022,136,Kenya,KE
+2022,137,Kiribati,KI
+2022,138,Korea Dem_People_Rep_of,KP
+2022,139,Korea Republic_of,KR
+2022,140,Kosovo,XK
+2022,141,Kuwait,KW
+2022,142,Kyrgyzstan,KG
+2022,143,Lao P.D.R.,LA
+2022,144,Lebanon,LB
+2022,145,Lesotho,LS
+2022,146,Liberia,LR
+2022,147,Libya,LY
+2022,148,Macao,MO
+2022,149,Madagascar,MG
+2022,150,Malawi,MW
+2022,151,Malaysia,MY
+2022,152,Maldives,MV
+2022,153,Mali,ML
+2022,154,Marshall Islands,MH
+2022,155,Martinique,MQ
+2022,156,Mauritania,MR
+2022,157,Mauritius,MU
+2022,158,Mayotte,YT
+2022,159,Micronesia - Federated States of,FM
+2022,160,Moldova,MD
+2022,161,Monaco,MC
+2022,162,Mongolia,MN
+2022,163,Montenegro,ME
+2022,164,Montserrat,MS
+2022,165,Morocco,MA
+2022,166,Mozambique,MZ
+2022,167,Myanmar,MM
+2022,168,Namibia,NA
+2022,169,Nauru,NR
+2022,170,Nepal,NP
+2022,171,New Caledonia,NC
+2022,172,New Zealand,NZ
+2022,173,Nicaragua,NI
+2022,174,Niger,NE
+2022,175,Nigeria,NG
+2022,176,Niue,NU
+2022,177,Northern Mariana Islands,MP
+2022,178,Oman,OM
+2022,179,Pakistan,PK
+2022,180,Palau,PW
+2022,181,Panama,PA
+2022,182,Papua New Guinea,PG
+2022,183,Paraguay,PY
+2022,184,Philippines,PH
+2022,185,Pitcairn,PN
+2022,186,Puerto Rico,PR
+2022,187,Qatar,QA
+2022,188,Reunion,RE
+2022,189,Rwanda,RW
+2022,190,Saint Helena,SH
+2022,191,Saint Kitts and Nevis,KN
+2022,192,Saint Lucia,LC
+2022,193,Saint Martin,MF
+2022,194,Saint Vincent and the Grenadines,VC
+2022,195,Saint-Pierre and Miquelon,PM
+2022,196,Samoa,WS
+2022,197,San Marino,SM
+2022,198,Sao Tome and Principe,ST
+2022,199,Saudi Arabia,SA
+2022,200,Senegal,SN
+2022,201,Serbia,RS
+2022,202,Seychelles,SC
+2022,203,Sierra Leone,SL
+2022,204,Singapore,SG
+2022,205,Sint Maarten,SX
+2022,206,Solomon Islands,SB
+2022,207,Somalia,SO
+2022,208,South Africa,ZA
+2022,209,South Sudan,SS
+2022,210,Sri Lanka,LK
+2022,211,Sudan,SD
+2022,212,Suriname,SR
+2022,213,Svalbard and Jan Mayen Islands,SJ
+2022,214,Swaziland,SZ
+2022,215,Syria,SY
+2022,216,Taiwan Province of China,TW
+2022,217,Tajikistan,TJ
+2022,218,Tanzania,TZ
+2022,219,Thailand,TH
+2022,220,Timor-Leste,TL
+2022,221,Togo,TG
+2022,222,Tokelau,TK
+2022,223,Tonga,TO
+2022,224,Trinidad and Tobago,TT
+2022,225,Tunisia,TN
+2022,226,Turkmenistan,TM
+2022,227,Turks and Caicos Islands,TC
+2022,228,Tuvalu,TV
+2022,229,Uganda,UG
+2022,230,Ukraine,UA
+2022,231,United Arab Emirates,AE
+2022,232,United States Minor Outlying Islands,UM
+2022,233,Uruguay,UY
+2022,234,Uzbekistan,UZ
+2022,235,Vanuatu,VU
+2022,236,Venezuela,VE
+2022,237,Vietnam,VN
+2022,238,Wallis and Futuna Islands,WF
+2022,239,West Bank and Gaza,WE
+2022,240,Western Sahara,EH
+2022,241,Yemen,YE
+2022,242,Zambia,ZM
+2022,243,Zimbabwe,ZW
+2022,244,Other,O1
+2022,245,Other Central and eastern Europe countries non EEA,O2
+2022,246,Middle East,O3
+2022,247,Latin America and the Caribbean,O4
+2022,248,Africa,O5
+2022,249,Other advanced economies non EEA,O6
+2022,250,NORFOLK ISLAND,NF
+2022,251,PALESTINIAN TERRITORY  OCCUPIED,PS
+2022,252,SAINT BARTHÉLEMY,BL
+2022,253,SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS,GS
+2022,254,VIRGIN ISLANDS  BRITISH,VG
+2022,255,VIRGIN ISLANDS  U.S.,VI
+2022,256,ÅLAND ISLANDS,AX
+2022,257,ANTARCTICA,AQ
+2022,258,BOUVET ISLAND,BV
+2022,259,CHRISTMAS ISLAND,CX
+2022,260,COCOS (KEELING) ISLANDS,CC
+2022,261,FRENCH SOUTHERN TERRITORIES,TF
+2022,262,GUERNSEY,GG
+2022,263,HEARD ISLAND AND MCDONALD ISLANDS,HM
+2022,264,JERSEY,JE
+2022,701,Banque Centrale des États de l’Afrique de l’Ouest (BCEAO),_5O
+2022,702,CASDB (Central African States’ Development Bank),_5P
+2022,703,African Development Fund,_5Q
+2022,704,Asian Development Fund,_5R
+2022,705,Fonds spécial unifié de développement,_5S
+2022,706,CABEI (Central American Bank for Economic Integration),_5T
+2022,707,ADC (Andean Development Corporation),_5U
+2022,708,Other International Organisations (financial institutions),_5V
+2022,709,Banque des États de l’Afrique centrale (BEAC),_5W
+2022,710,Communauté Économique et Monétaire de l’Afrique Centrale (CEMAC),_5X
+2022,711,Eastern Caribbean Currency Union (ECCU),_5Y
+2022,712,Other International Financial Organisations n.i.e.,_5Z
+2022,713,Other International Organisations (non-financial institutions),_6A
+2022,714,NATO (North Atlantic Treaty Organisation),_6B
+2022,715,Council of Europe,_6C
+2022,716,ICRC (International Committee of the Red Cross),_6D
+2022,717,ESA (European Space Agency),_6E
+2022,718,EPO (European Patent Office),_6F
+2022,719,EUROCONTROL (European Organisation for the Safety of Air Navigation),_6G
+2022,720,EUTELSAT (European Telecommunications Satellite Organisation),_6H
+2022,721,West African Economic and Monetary Union (WAEMU),_6I
+2022,722,INTELSAT (International Telecommunications Satellite Organisation),_6J
+2022,723,EBU/UER (European Broadcasting Union/Union européenne de radio-télévision),_6K
+2022,724,EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites),_6L
+2022,725,ESO (European Southern Observatory),_6M
+2022,726,ECMWF (European Centre for Medium-Range Weather Forecasts),_6N
+2022,727,EMBL (European Molecular Biology Laboratory),_6O
+2022,728,CERN (European Organisation for Nuclear Research),_6P
+2022,729,IOM (International Organisation for Migration),_6Q
+2022,730,Islamic Development Bank (IDB),_6R
+2022,731,Eurasian Development Bank (EDB),_6S
+2022,732,Paris Club Creditor Institutions,_6T
+2022,733,Council of Europe Development Bank (CEB),_6U
+2022,734,Other International Non-Financial Organisations n.i.e.,_6Z
+2022,735,International Organisations excluding European Union Institutions,_7Z
+2022,736,International Union of Credit and Investment Insurers,_8A
+2022,737,Multilateral Lending Agencies,_9B
+2022,738,International organisations (as pseudo geographic area),_1A
+2022,739,United Nations organisations,_1B
+2022,740,IMF (International Monetary Fund),_1C
+2022,741,WTO (World Trade Organisation),_1D
+2022,742,IBRD (International Bank for Reconstruction and Development),_1E
+2022,743,IDA (International Development Association),_1F
+2022,744,Other UN Organisations (includes 1H  1J-1T),_1G
+2022,745,UNESCO (United Nations Educational  Scientific and Cultural Organisation),_1H
+2022,746,FAO (Food and Agriculture Organisation),_1J
+2022,747,WHO (World Health Organisation),_1K
+2022,748,IFAD (International Fund for Agricultural Development),_1L
+2022,749,IFC (International Finance Corporation),_1M
+2022,750,MIGA (Multilateral Investment Guarantee Agency),_1N
+2022,751,UNICEF (United Nations Children’s Fund),_1O
+2022,752,UNHCR (United Nations High Commissioner for Refugees),_1P
+2022,753,UNRWA (United Nations Relief and Works Agency for Palestine),_1Q
+2022,754,IAEA (International Atomic Energy Agency),_1R
+2022,755,ILO (International Labour Organisation),_1S
+2022,756,ITU (International Telecommunication Union),_1T
+2022,757,Rest of UN Organisations n.i.e.,_1Z
+2022,758,European Union Institutions  Organs and Organisms (excluding ECB),_4A
+2022,759,EMS (European Monetary System),_4B
+2022,760,EIB (European Investment Bank),_4C
+2022,761,EC (European Commission),_4D
+2022,762,EDF (European Development Fund),_4E
+2022,763,European Central Bank,_4F
+2022,764,EIF (European Investment Fund),_4G
+2022,765,ECSC (European Coal and Steel Community),_4H
+2022,766,Neighbourhood Investment Facility,_4I
+2022,767,FEMIP (Facility for Euro-Mediterranean Investment and Partnership),_4V
+2022,768,Other EU Institutions  Organs and Organisms covered by the General budget,_4J
+2022,769,European Parliament,_4K
+2022,770,Council of the European Union,_4L
+2022,771,Court of Justice,_4M
+2022,772,Court of Auditors,_4N
+2022,773,European Council,_4O
+2022,774,Economic and Social Committee,_4P
+2022,775,Committee of the Regions,_4Q
+2022,776,EU-Africa Infrastructure Trust Fund,_4R
+2022,777,European Stability Mechanism (ESM),_4S
+2022,778,Joint Committee of the European Supervisory Authorities (ESAs),_4T
+2022,779,All the European Union Institutions financed via the EU Budget,_4W
+2022,780,All the European Union Institutions not financed via the EU Budget,_4X
+2022,781,All the European Union Institutions,_4Y
+2022,782,Other small European Union Institutions (Ombudsman  Data Protection Supervisor etc.),_4Z
+2022,783,OECD (Organisation for Economic Co-operation and Development),_5A
+2022,784,BIS (Bank for International Settlements),_5B
+2022,785,IADB (Inter-American Development Bank),_5C
+2022,786,AfDB (African Development Bank),_5D
+2022,787,AsDB (Asian Development Bank),_5E
+2022,788,EBRD (European Bank for Reconstruction and Development),_5F
+2022,789,IIC (Inter-American Investment Corporation),_5G
+2022,790,NIB (Nordic Investment Bank),_5H
+2022,791,Eastern Caribbean Central Bank (ECCB),_5I
+2022,792,IBEC (International Bank for Economic Co-operation),_5J
+2022,793,IIB (International Investment Bank),_5K
+2022,794,CDB (Caribbean Development Bank),_5L
+2022,795,AMF (Arab Monetary Fund),_5M
+2022,796,BADEA (Banque arabe pour le développement économique en Afrique),_5N
+2022,901,Countries not relevant for MKR purposes,x5
+2022,902,Not applicable/All geographical areas,x0
+2022,903,Other Countries,x28
+2023,0,Total / No breakdown ,00
+2023,1,Austria,AT
+2023,2,Belgium,BE
+2023,3,Bulgaria,BG
+2023,4,Cyprus,CY
+2023,5,Czech Republic,CZ
+2023,6,Denmark,DK
+2023,7,Estonia,EE
+2023,8,Finland,FI
+2023,9,France,FR
+2023,10,Germany,DE
+2023,11,Greece,GR
+2023,12,Hungary,HU
+2023,13,Iceland,IS
+2023,14,Ireland,IE
+2023,15,Italy,IT
+2023,16,Latvia,LV
+2023,17,Liechtenstein,LI
+2023,18,Lithuania,LT
+2023,19,Luxembourg,LU
+2023,20,Malta,MT
+2023,21,Netherlands,NL
+2023,22,Norway,NO
+2023,23,Poland,PL
+2023,24,Portugal,PT
+2023,25,Romania,RO
+2023,26,Slovakia,SK
+2023,27,Slovenia,SI
+2023,28,Spain,ES
+2023,29,Sweden,SE
+2023,30,United Kingdom,GB
+2023,31,Brazil,BR
+2023,32,Chile,CL
+2023,33,China,CN
+2023,34,CROATIA,HR
+2023,35,Hong Kong,HK
+2023,36,India,IN
+2023,37,Japan,JP
+2023,38,Mexico,MX
+2023,39,Peru,PE
+2023,40,Russian Federation,RU
+2023,41,Switzerland,CH
+2023,42,Turkey,TR
+2023,43,United States,US
+2023,44,International organisations,IZ
+2023,50,Afghanistan,AF
+2023,51,Albania,AL
+2023,52,Algeria,DZ
+2023,53,American Samoa,AS
+2023,54,Andorra,AD
+2023,55,Angola,AO
+2023,56,Anguilla,AI
+2023,57,Antigua and Barbuda,AG
+2023,58,Argentina,AR
+2023,59,Armenia,AM
+2023,60,Aruba,AW
+2023,61,Australia,AU
+2023,62,Azerbaijan,AZ
+2023,63,Bahamas,BS
+2023,64,Bahrain,BH
+2023,65,Bangladesh,BD
+2023,66,Barbados,BB
+2023,67,Belarus,BY
+2023,68,Belize,BZ
+2023,69,Benin,BJ
+2023,70,Bermuda,BM
+2023,71,Bhutan,BT
+2023,72,BOLIVIA  PLURINATIONAL STATE OF,BO
+2023,73,BONAIRE  SINT EUSTATIUS AND SABA,BQ
+2023,74,BOSNIA AND HERZEGOVINA,BA
+2023,75,Botswana,BW
+2023,76,British Indian Ocean Territory,IO
+2023,77,Brunei Darussalam,BN
+2023,78,Burkina Faso,BF
+2023,79,Burundi,BI
+2023,80,Cambodia,KH
+2023,81,Cameroon,CM
+2023,82,Canada,CA
+2023,83,Cape Verde,CV
+2023,84,Cayman Islands,KY
+2023,85,Central African Republic,CF
+2023,86,Chad,TD
+2023,87,Channel Islands,CS
+2023,88,Colombia,CO
+2023,89,Comoros,KM
+2023,90,CONGO  THE DEMOCRATIC REPUBLIC OF THE,CD
+2023,91,CONGO,CG
+2023,92,Cook Islands,CK
+2023,93,Costa Rica,CR
+2023,94,CÔTE D'IVOIRE,CI
+2023,95,Cuba,CU
+2023,96,CURAÇAO,CW
+2023,97,Djibouti,DJ
+2023,98,Dominica,DM
+2023,99,Dominican Republic,DO
+2023,100,Ecuador,EC
+2023,101,Egypt,EG
+2023,102,El Salvador,SV
+2023,103,Equatorial Guinea,GQ
+2023,104,Eritrea,ER
+2023,105,Ethiopia,ET
+2023,106,Faroe Islands,FO
+2023,107,Falkland Islands (MALVINAS),FK
+2023,108,Fiji,FJ
+2023,109,French Guiana,GF
+2023,110,French Polynesia,PF
+2023,111,NORTH MACEDONIA,MK
+2023,112,Gabon,GA
+2023,113,Gambia,GM
+2023,114,Georgia,GE
+2023,115,Ghana,GH
+2023,116,Gibraltar,GI
+2023,117,Greenland,GL
+2023,118,Grenada,GD
+2023,119,Guadeloupe,GP
+2023,120,Guam,GU
+2023,121,Guatemala,GT
+2023,122,Guinea,GN
+2023,123,Guinea-Bissau,GW
+2023,124,Guyana,GY
+2023,125,Haiti,HT
+2023,126,Holy See (Vatican City State),VA
+2023,127,Honduras,HN
+2023,128,Indonesia,ID
+2023,129,IRAN  ISLAMIC REPUBLIC OF,IR
+2023,130,Iraq,IQ
+2023,131,Isle of Man,IM
+2023,132,Israel,IL
+2023,133,Jamaica,JM
+2023,134,Jordan,JO
+2023,135,Kazakhstan,KZ
+2023,136,Kenya,KE
+2023,137,Kiribati,KI
+2023,138,KOREA  DEMOCRATIC PEOPLE'S REPUBLIC OF,KP
+2023,139,KOREA  REPUBLIC OF,KR
+2023,140,Kosovo,XK
+2023,141,Kuwait,KW
+2023,142,Kyrgyzstan,KG
+2023,143,LAO PEOPLE'S DEMOCRATIC REPUBLIC,LA
+2023,144,Lebanon,LB
+2023,145,Lesotho,LS
+2023,146,Liberia,LR
+2023,147,Libya,LY
+2023,148,Macao,MO
+2023,149,Madagascar,MG
+2023,150,Malawi,MW
+2023,151,Malaysia,MY
+2023,152,Maldives,MV
+2023,153,Mali,ML
+2023,154,Marshall Islands,MH
+2023,155,Martinique,MQ
+2023,156,Mauritania,MR
+2023,157,Mauritius,MU
+2023,158,Mayotte,YT
+2023,159,MICRONESIA  FEDERATED STATES OF,FM
+2023,160,MOLDOVA  REPUBLIC OF,MD
+2023,161,Monaco,MC
+2023,162,Mongolia,MN
+2023,163,Montenegro,ME
+2023,164,Montserrat,MS
+2023,165,Morocco,MA
+2023,166,Mozambique,MZ
+2023,167,Myanmar,MM
+2023,168,Namibia,NA
+2023,169,Nauru,NR
+2023,170,Nepal,NP
+2023,171,New Caledonia,NC
+2023,172,New Zealand,NZ
+2023,173,Nicaragua,NI
+2023,174,Niger,NE
+2023,175,Nigeria,NG
+2023,176,Niue,NU
+2023,177,Northern Mariana Islands,MP
+2023,178,Oman,OM
+2023,179,Pakistan,PK
+2023,180,Palau,PW
+2023,181,Panama,PA
+2023,182,Papua New Guinea,PG
+2023,183,Paraguay,PY
+2023,184,Philippines,PH
+2023,185,Pitcairn,PN
+2023,186,Puerto Rico,PR
+2023,187,Qatar,QA
+2023,188,RÉUNION,RE
+2023,189,Rwanda,RW
+2023,190,SAINT HELENA  ASCENSION AND TRISTAN DA CUNHA,SH
+2023,191,Saint Kitts and Nevis,KN
+2023,192,Saint Lucia,LC
+2023,193,SAINT MARTIN (FRENCH PART),MF
+2023,194,Saint Vincent and the Grenadines,VC
+2023,195,SAINT PIERRE AND MIQUELON,PM
+2023,196,Samoa,WS
+2023,197,San Marino,SM
+2023,198,Sao Tome and Principe,ST
+2023,199,Saudi Arabia,SA
+2023,200,Senegal,SN
+2023,201,Serbia,RS
+2023,202,Seychelles,SC
+2023,203,Sierra Leone,SL
+2023,204,Singapore,SG
+2023,205,SINT MAARTEN (DUTCH PART),SX
+2023,206,Solomon Islands,SB
+2023,207,Somalia,SO
+2023,208,South Africa,ZA
+2023,209,South Sudan,SS
+2023,210,Sri Lanka,LK
+2023,211,Sudan,SD
+2023,212,Suriname,SR
+2023,213,SVALBARD AND JAN MAYEN,SJ
+2023,214,Swaziland,SZ
+2023,215,SYRIAN ARAB REPUBLIC,SY
+2023,216,TAIWAN  PROVINCE OF CHINA,TW
+2023,217,Tajikistan,TJ
+2023,218,TANZANIA  UNITED REPUBLIC OF,TZ
+2023,219,Thailand,TH
+2023,220,Timor-Leste,TL
+2023,221,Togo,TG
+2023,222,Tokelau,TK
+2023,223,Tonga,TO
+2023,224,Trinidad and Tobago,TT
+2023,225,Tunisia,TN
+2023,226,Turkmenistan,TM
+2023,227,Turks and Caicos Islands,TC
+2023,228,Tuvalu,TV
+2023,229,Uganda,UG
+2023,230,Ukraine,UA
+2023,231,United Arab Emirates,AE
+2023,232,United States Minor Outlying Islands,UM
+2023,233,Uruguay,UY
+2023,234,Uzbekistan,UZ
+2023,235,Vanuatu,VU
+2023,236,VENEZUELA  BOLIVARIAN REPUBLIC OF,VE
+2023,237,VIET NAM,VN
+2023,238,WALLIS AND FUTUNA,WF
+2023,239,West Bank and Gaza,WE
+2023,240,Western Sahara,EH
+2023,241,Yemen,YE
+2023,242,Zambia,ZM
+2023,243,Zimbabwe,ZW
+2023,244,Other,O1
+2023,245,Other Central and eastern Europe countries non EEA,O2
+2023,246,Middle East,O3
+2023,247,Latin America and the Caribbean,O4
+2023,248,Africa,O5
+2023,249,Other advanced economies non EEA,O6
+2023,250,NORFOLK ISLAND,NF
+2023,251,PALESTINIAN TERRITORY  OCCUPIED,PS
+2023,252,SAINT BARTHÉLEMY,BL
+2023,253,SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS,GS
+2023,254,VIRGIN ISLANDS  BRITISH,VG
+2023,255,VIRGIN ISLANDS  U.S.,VI
+2023,256,ÅLAND ISLANDS,AX
+2023,257,ANTARCTICA,AQ
+2023,258,BOUVET ISLAND,BV
+2023,259,CHRISTMAS ISLAND,CX
+2023,260,COCOS (KEELING) ISLANDS,CC
+2023,261,FRENCH SOUTHERN TERRITORIES,TF
+2023,262,GUERNSEY,GG
+2023,263,HEARD ISLAND AND MCDONALD ISLANDS,HM
+2023,264,JERSEY,JE
+2023,701,Banque Centrale des États de l’Afrique de l’Ouest (BCEAO),_5O
+2023,702,CASDB (Central African States’ Development Bank),_5P
+2023,703,African Development Fund,_5Q
+2023,704,Asian Development Fund,_5R
+2023,705,Fonds spécial unifié de développement,_5S
+2023,706,CABEI (Central American Bank for Economic Integration),_5T
+2023,707,ADC (Andean Development Corporation),_5U
+2023,708,Other International Organisations (financial institutions),_5V
+2023,709,Banque des États de l’Afrique centrale (BEAC),_5W
+2023,710,Communauté Économique et Monétaire de l’Afrique Centrale (CEMAC),_5X
+2023,711,Eastern Caribbean Currency Union (ECCU),_5Y
+2023,712,Other International Financial Organisations n.i.e.,_5Z
+2023,713,Other International Organisations (non-financial institutions),_6A
+2023,714,NATO (North Atlantic Treaty Organisation),_6B
+2023,715,Council of Europe,_6C
+2023,716,ICRC (International Committee of the Red Cross),_6D
+2023,717,ESA (European Space Agency),_6E
+2023,718,EPO (European Patent Office),_6F
+2023,719,EUROCONTROL (European Organisation for the Safety of Air Navigation),_6G
+2023,720,EUTELSAT (European Telecommunications Satellite Organisation),_6H
+2023,721,West African Economic and Monetary Union (WAEMU),_6I
+2023,722,INTELSAT (International Telecommunications Satellite Organisation),_6J
+2023,723,EBU/UER (European Broadcasting Union/Union européenne de radio-télévision),_6K
+2023,724,EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites),_6L
+2023,725,ESO (European Southern Observatory),_6M
+2023,726,ECMWF (European Centre for Medium-Range Weather Forecasts),_6N
+2023,727,EMBL (European Molecular Biology Laboratory),_6O
+2023,728,CERN (European Organisation for Nuclear Research),_6P
+2023,729,IOM (International Organisation for Migration),_6Q
+2023,730,Islamic Development Bank (IDB),_6R
+2023,731,Eurasian Development Bank (EDB),_6S
+2023,732,Paris Club Creditor Institutions,_6T
+2023,733,Council of Europe Development Bank (CEB),_6U
+2023,734,Other International Non-Financial Organisations n.i.e.,_6Z
+2023,735,International Organisations excluding European Union Institutions,_7Z
+2023,736,International Union of Credit and Investment Insurers,_8A
+2023,737,Multilateral Lending Agencies,_9B
+2023,738,International organisations (as pseudo geographic area),_1A
+2023,739,United Nations organisations,_1B
+2023,740,IMF (International Monetary Fund),_1C
+2023,741,WTO (World Trade Organisation),_1D
+2023,742,IBRD (International Bank for Reconstruction and Development),_1E
+2023,743,IDA (International Development Association),_1F
+2023,744,Other UN Organisations (includes 1H  1J-1T),_1G
+2023,745,UNESCO (United Nations Educational  Scientific and Cultural Organisation),_1H
+2023,746,FAO (Food and Agriculture Organisation),_1J
+2023,747,WHO (World Health Organisation),_1K
+2023,748,IFAD (International Fund for Agricultural Development),_1L
+2023,749,IFC (International Finance Corporation),_1M
+2023,750,MIGA (Multilateral Investment Guarantee Agency),_1N
+2023,751,UNICEF (United Nations Children’s Fund),_1O
+2023,752,UNHCR (United Nations High Commissioner for Refugees),_1P
+2023,753,UNRWA (United Nations Relief and Works Agency for Palestine),_1Q
+2023,754,IAEA (International Atomic Energy Agency),_1R
+2023,755,ILO (International Labour Organisation),_1S
+2023,756,ITU (International Telecommunication Union),_1T
+2023,757,Rest of UN Organisations n.i.e.,_1Z
+2023,758,European Union Institutions  Organs and Organisms (excluding ECB),_4A
+2023,759,EMS (European Monetary System),_4B
+2023,760,EIB (European Investment Bank),_4C
+2023,761,EC (European Commission),_4D
+2023,762,EDF (European Development Fund),_4E
+2023,763,European Central Bank,_4F
+2023,764,EIF (European Investment Fund),_4G
+2023,765,ECSC (European Coal and Steel Community),_4H
+2023,766,Neighbourhood Investment Facility,_4I
+2023,767,FEMIP (Facility for Euro-Mediterranean Investment and Partnership),_4V
+2023,768,Other EU Institutions  Organs and Organisms covered by the General budget,_4J
+2023,769,European Parliament,_4K
+2023,770,Council of the European Union,_4L
+2023,771,Court of Justice,_4M
+2023,772,Court of Auditors,_4N
+2023,773,European Council,_4O
+2023,774,Economic and Social Committee,_4P
+2023,775,Committee of the Regions,_4Q
+2023,776,EU-Africa Infrastructure Trust Fund,_4R
+2023,777,European Stability Mechanism (ESM),_4S
+2023,778,Joint Committee of the European Supervisory Authorities (ESAs),_4T
+2023,779,All the European Union Institutions financed via the EU Budget,_4W
+2023,780,All the European Union Institutions not financed via the EU Budget,_4X
+2023,781,All the European Union Institutions,_4Y
+2023,782,Other small European Union Institutions (Ombudsman  Data Protection Supervisor etc.),_4Z
+2023,783,OECD (Organisation for Economic Co-operation and Development),_5A
+2023,784,BIS (Bank for International Settlements),_5B
+2023,785,IADB (Inter-American Development Bank),_5C
+2023,786,AfDB (African Development Bank),_5D
+2023,787,AsDB (Asian Development Bank),_5E
+2023,788,EBRD (European Bank for Reconstruction and Development),_5F
+2023,789,IIC (Inter-American Investment Corporation),_5G
+2023,790,NIB (Nordic Investment Bank),_5H
+2023,791,Eastern Caribbean Central Bank (ECCB),_5I
+2023,792,IBEC (International Bank for Economic Co-operation),_5J
+2023,793,IIB (International Investment Bank),_5K
+2023,794,CDB (Caribbean Development Bank),_5L
+2023,795,AMF (Arab Monetary Fund),_5M
+2023,796,BADEA (Banque arabe pour le développement économique en Afrique),_5N
+2023,901,Countries not relevant for MKR purposes,x5
+2023,902,Not applicable/All geographical areas,x0
+2023,903,Other Countries,x28
+2024,0,Total / No breakdown ,00
+2024,1,Austria,AT
+2024,2,Belgium,BE
+2024,3,Bulgaria,BG
+2024,4,Cyprus,CY
+2024,5,Czech Republic,CZ
+2024,6,Denmark,DK
+2024,7,Estonia,EE
+2024,8,Finland,FI
+2024,9,France,FR
+2024,10,Germany,DE
+2024,11,Greece,GR
+2024,12,Hungary,HU
+2024,13,Iceland,IS
+2024,14,Ireland,IE
+2024,15,Italy,IT
+2024,16,Latvia,LV
+2024,17,Liechtenstein,LI
+2024,18,Lithuania,LT
+2024,19,Luxembourg,LU
+2024,20,Malta,MT
+2024,21,Netherlands,NL
+2024,22,Norway,NO
+2024,23,Poland,PL
+2024,24,Portugal,PT
+2024,25,Romania,RO
+2024,26,Slovakia,SK
+2024,27,Slovenia,SI
+2024,28,Spain,ES
+2024,29,Sweden,SE
+2024,30,United Kingdom,GB
+2024,31,Brazil,BR
+2024,32,Chile,CL
+2024,33,China,CN
+2024,34,Croatia,HR
+2024,35,Hong Kong,HK
+2024,36,India,IN
+2024,37,Japan,JP
+2024,38,Mexico,MX
+2024,39,Peru,PE
+2024,40,Russian Federation,RU
+2024,41,Switzerland,CH
+2024,42,Turkey,TR
+2024,43,United States,US
+2024,44,International organisations,IZ
+2024,50,Afghanistan,AF
+2024,51,Albania,AL
+2024,52,Algeria,DZ
+2024,53,American Samoa,AS
+2024,54,Andorra,AD
+2024,55,Angola,AO
+2024,56,Anguilla,AI
+2024,57,Antigua and Barbuda,AG
+2024,58,Argentina,AR
+2024,59,Armenia,AM
+2024,60,Aruba,AW
+2024,61,Australia,AU
+2024,62,Azerbaijan,AZ
+2024,63,Bahamas,BS
+2024,64,Bahrain,BH
+2024,65,Bangladesh,BD
+2024,66,Barbados,BB
+2024,67,Belarus,BY
+2024,68,Belize,BZ
+2024,69,Benin,BJ
+2024,70,Bermuda,BM
+2024,71,Bhutan,BT
+2024,72,BOLIVIA  PLURINATIONAL STATE OF,BO
+2024,73,BONAIRE  SINT EUSTATIUS AND SABA,BQ
+2024,74,BOSNIA AND HERZEGOVINA,BA
+2024,75,Botswana,BW
+2024,76,British Indian Ocean Territory,IO
+2024,77,Brunei Darussalam,BN
+2024,78,Burkina Faso,BF
+2024,79,Burundi,BI
+2024,80,Cambodia,KH
+2024,81,Cameroon,CM
+2024,82,Canada,CA
+2024,83,Cape Verde,CV
+2024,84,Cayman Islands,KY
+2024,85,Central African Republic,CF
+2024,86,Chad,TD
+2024,87,Channel Islands,CS
+2024,88,Colombia,CO
+2024,89,Comoros,KM
+2024,90,CONGO  THE DEMOCRATIC REPUBLIC OF THE,CD
+2024,91,CONGO,CG
+2024,92,Cook Islands,CK
+2024,93,Costa Rica,CR
+2024,94,CÔTE D'IVOIRE,CI
+2024,95,Cuba,CU
+2024,96,CURAÇAO,CW
+2024,97,Djibouti,DJ
+2024,98,Dominica,DM
+2024,99,Dominican Republic,DO
+2024,100,Ecuador,EC
+2024,101,Egypt,EG
+2024,102,El Salvador,SV
+2024,103,Equatorial Guinea,GQ
+2024,104,Eritrea,ER
+2024,105,Ethiopia,ET
+2024,106,Faroe Islands,FO
+2024,107,Falkland Islands (MALVINAS),FK
+2024,108,Fiji,FJ
+2024,109,French Guiana,GF
+2024,110,French Polynesia,PF
+2024,111,NORTH MACEDONIA,MK
+2024,112,Gabon,GA
+2024,113,Gambia,GM
+2024,114,Georgia,GE
+2024,115,Ghana,GH
+2024,116,Gibraltar,GI
+2024,117,Greenland,GL
+2024,118,Grenada,GD
+2024,119,Guadeloupe,GP
+2024,120,Guam,GU
+2024,121,Guatemala,GT
+2024,122,Guinea,GN
+2024,123,Guinea-Bissau,GW
+2024,124,Guyana,GY
+2024,125,Haiti,HT
+2024,126,Holy See (Vatican City State),VA
+2024,127,Honduras,HN
+2024,128,Indonesia,ID
+2024,129,IRAN  ISLAMIC REPUBLIC OF,IR
+2024,130,Iraq,IQ
+2024,131,Isle of Man,IM
+2024,132,Israel,IL
+2024,133,Jamaica,JM
+2024,134,Jordan,JO
+2024,135,Kazakhstan,KZ
+2024,136,Kenya,KE
+2024,137,Kiribati,KI
+2024,138,KOREA  DEMOCRATIC PEOPLE'S REPUBLIC OF,KP
+2024,139,KOREA  REPUBLIC OF,KR
+2024,140,Kosovo,XK
+2024,141,Kuwait,KW
+2024,142,Kyrgyzstan,KG
+2024,143,LAO PEOPLE'S DEMOCRATIC REPUBLIC,LA
+2024,144,Lebanon,LB
+2024,145,Lesotho,LS
+2024,146,Liberia,LR
+2024,147,Libya,LY
+2024,148,Macao,MO
+2024,149,Madagascar,MG
+2024,150,Malawi,MW
+2024,151,Malaysia,MY
+2024,152,Maldives,MV
+2024,153,Mali,ML
+2024,154,Marshall Islands,MH
+2024,155,Martinique,MQ
+2024,156,Mauritania,MR
+2024,157,Mauritius,MU
+2024,158,Mayotte,YT
+2024,159,MICRONESIA  FEDERATED STATES OF,FM
+2024,160,MOLDOVA  REPUBLIC OF,MD
+2024,161,Monaco,MC
+2024,162,Mongolia,MN
+2024,163,Montenegro,ME
+2024,164,Montserrat,MS
+2024,165,Morocco,MA
+2024,166,Mozambique,MZ
+2024,167,Myanmar,MM
+2024,168,Namibia,NA
+2024,169,Nauru,NR
+2024,170,Nepal,NP
+2024,171,New Caledonia,NC
+2024,172,New Zealand,NZ
+2024,173,Nicaragua,NI
+2024,174,Niger,NE
+2024,175,Nigeria,NG
+2024,176,Niue,NU
+2024,177,Northern Mariana Islands,MP
+2024,178,Oman,OM
+2024,179,Pakistan,PK
+2024,180,Palau,PW
+2024,181,Panama,PA
+2024,182,Papua New Guinea,PG
+2024,183,Paraguay,PY
+2024,184,Philippines,PH
+2024,185,Pitcairn,PN
+2024,186,Puerto Rico,PR
+2024,187,Qatar,QA
+2024,188,RÉUNION,RE
+2024,189,Rwanda,RW
+2024,190,SAINT HELENA  ASCENSION AND TRISTAN DA CUNHA,SH
+2024,191,Saint Kitts and Nevis,KN
+2024,192,Saint Lucia,LC
+2024,193,SAINT MARTIN (FRENCH PART),MF
+2024,194,Saint Vincent and the Grenadines,VC
+2024,195,SAINT PIERRE AND MIQUELON,PM
+2024,196,Samoa,WS
+2024,197,San Marino,SM
+2024,198,Sao Tome and Principe,ST
+2024,199,Saudi Arabia,SA
+2024,200,Senegal,SN
+2024,201,Serbia,RS
+2024,202,Seychelles,SC
+2024,203,Sierra Leone,SL
+2024,204,Singapore,SG
+2024,205,SINT MAARTEN (DUTCH PART),SX
+2024,206,Solomon Islands,SB
+2024,207,Somalia,SO
+2024,208,South Africa,ZA
+2024,209,South Sudan,SS
+2024,210,Sri Lanka,LK
+2024,211,Sudan,SD
+2024,212,Suriname,SR
+2024,213,SVALBARD AND JAN MAYEN,SJ
+2024,214,Swaziland,SZ
+2024,215,SYRIAN ARAB REPUBLIC,SY
+2024,216,TAIWAN  PROVINCE OF CHINA,TW
+2024,217,Tajikistan,TJ
+2024,218,TANZANIA  UNITED REPUBLIC OF,TZ
+2024,219,Thailand,TH
+2024,220,Timor-Leste,TL
+2024,221,Togo,TG
+2024,222,Tokelau,TK
+2024,223,Tonga,TO
+2024,224,Trinidad and Tobago,TT
+2024,225,Tunisia,TN
+2024,226,Turkmenistan,TM
+2024,227,Turks and Caicos Islands,TC
+2024,228,Tuvalu,TV
+2024,229,Uganda,UG
+2024,230,Ukraine,UA
+2024,231,United Arab Emirates,AE
+2024,232,United States Minor Outlying Islands,UM
+2024,233,Uruguay,UY
+2024,234,Uzbekistan,UZ
+2024,235,Vanuatu,VU
+2024,236,VENEZUELA  BOLIVARIAN REPUBLIC OF,VE
+2024,237,VIET NAM,VN
+2024,238,WALLIS AND FUTUNA,WF
+2024,239,West Bank and Gaza,WE
+2024,240,Western Sahara,EH
+2024,241,Yemen,YE
+2024,242,Zambia,ZM
+2024,243,Zimbabwe,ZW
+2024,244,Other,O1
+2024,245,Other Central and eastern Europe countries non EEA,O2
+2024,246,Middle East,O3
+2024,247,Latin America and the Caribbean,O4
+2024,248,Africa,O5
+2024,249,Other advanced economies non EEA,O6
+2024,250,NORFOLK ISLAND,NF
+2024,251,PALESTINIAN TERRITORY  OCCUPIED,PS
+2024,252,SAINT BARTHÉLEMY,BL
+2024,253,SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS,GS
+2024,254,VIRGIN ISLANDS  BRITISH,VG
+2024,255,VIRGIN ISLANDS  U.S.,VI
+2024,256,ÅLAND ISLANDS,AX
+2024,257,ANTARCTICA,AQ
+2024,258,BOUVET ISLAND,BV
+2024,259,CHRISTMAS ISLAND,CX
+2024,260,COCOS (KEELING) ISLANDS,CC
+2024,261,FRENCH SOUTHERN TERRITORIES,TF
+2024,262,GUERNSEY,GG
+2024,263,HEARD ISLAND AND MCDONALD ISLANDS,HM
+2024,264,JERSEY,JE
+2024,701,Banque Centrale des États de l’Afrique de l’Ouest (BCEAO),_5O
+2024,702,CASDB (Central African States’ Development Bank),_5P
+2024,703,African Development Fund,_5Q
+2024,704,Asian Development Fund,_5R
+2024,705,Fonds spécial unifié de développement,_5S
+2024,706,CABEI (Central American Bank for Economic Integration),_5T
+2024,707,ADC (Andean Development Corporation),_5U
+2024,708,Other International Organisations (financial institutions),_5V
+2024,709,Banque des États de l’Afrique centrale (BEAC),_5W
+2024,710,Communauté Économique et Monétaire de l’Afrique Centrale (CEMAC),_5X
+2024,711,Eastern Caribbean Currency Union (ECCU),_5Y
+2024,712,Other International Financial Organisations n.i.e.,_5Z
+2024,713,Other International Organisations (non-financial institutions),_6A
+2024,714,NATO (North Atlantic Treaty Organisation),_6B
+2024,715,Council of Europe,_6C
+2024,716,ICRC (International Committee of the Red Cross),_6D
+2024,717,ESA (European Space Agency),_6E
+2024,718,EPO (European Patent Office),_6F
+2024,719,EUROCONTROL (European Organisation for the Safety of Air Navigation),_6G
+2024,720,EUTELSAT (European Telecommunications Satellite Organisation),_6H
+2024,721,West African Economic and Monetary Union (WAEMU),_6I
+2024,722,INTELSAT (International Telecommunications Satellite Organisation),_6J
+2024,723,EBU/UER (European Broadcasting Union/Union européenne de radio-télévision),_6K
+2024,724,EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites),_6L
+2024,725,ESO (European Southern Observatory),_6M
+2024,726,ECMWF (European Centre for Medium-Range Weather Forecasts),_6N
+2024,727,EMBL (European Molecular Biology Laboratory),_6O
+2024,728,CERN (European Organisation for Nuclear Research),_6P
+2024,729,IOM (International Organisation for Migration),_6Q
+2024,730,Islamic Development Bank (IDB),_6R
+2024,731,Eurasian Development Bank (EDB),_6S
+2024,732,Paris Club Creditor Institutions,_6T
+2024,733,Council of Europe Development Bank (CEB),_6U
+2024,734,Other International Non-Financial Organisations n.i.e.,_6Z
+2024,735,International Organisations excluding European Union Institutions,_7Z
+2024,736,International Union of Credit and Investment Insurers,_8A
+2024,737,Multilateral Lending Agencies,_9B
+2024,738,International organisations (as pseudo geographic area),_1A
+2024,739,United Nations organisations,_1B
+2024,740,IMF (International Monetary Fund),_1C
+2024,741,WTO (World Trade Organisation),_1D
+2024,742,IBRD (International Bank for Reconstruction and Development),_1E
+2024,743,IDA (International Development Association),_1F
+2024,744,Other UN Organisations (includes 1H  1J-1T),_1G
+2024,745,UNESCO (United Nations Educational  Scientific and Cultural Organisation),_1H
+2024,746,FAO (Food and Agriculture Organisation),_1J
+2024,747,WHO (World Health Organisation),_1K
+2024,748,IFAD (International Fund for Agricultural Development),_1L
+2024,749,IFC (International Finance Corporation),_1M
+2024,750,MIGA (Multilateral Investment Guarantee Agency),_1N
+2024,751,UNICEF (United Nations Children’s Fund),_1O
+2024,752,UNHCR (United Nations High Commissioner for Refugees),_1P
+2024,753,UNRWA (United Nations Relief and Works Agency for Palestine),_1Q
+2024,754,IAEA (International Atomic Energy Agency),_1R
+2024,755,ILO (International Labour Organisation),_1S
+2024,756,ITU (International Telecommunication Union),_1T
+2024,757,Rest of UN Organisations n.i.e.,_1Z
+2024,758,European Union Institutions  Organs and Organisms (excluding ECB),_4A
+2024,759,EMS (European Monetary System),_4B
+2024,760,EIB (European Investment Bank),_4C
+2024,761,EC (European Commission),_4D
+2024,762,EDF (European Development Fund),_4E
+2024,763,European Central Bank,_4F
+2024,764,EIF (European Investment Fund),_4G
+2024,765,ECSC (European Coal and Steel Community),_4H
+2024,766,Neighbourhood Investment Facility,_4I
+2024,767,FEMIP (Facility for Euro-Mediterranean Investment and Partnership),_4V
+2024,768,Other EU Institutions  Organs and Organisms covered by the General budget,_4J
+2024,769,European Parliament,_4K
+2024,770,Council of the European Union,_4L
+2024,771,Court of Justice,_4M
+2024,772,Court of Auditors,_4N
+2024,773,European Council,_4O
+2024,774,Economic and Social Committee,_4P
+2024,775,Committee of the Regions,_4Q
+2024,776,EU-Africa Infrastructure Trust Fund,_4R
+2024,777,European Stability Mechanism (ESM),_4S
+2024,778,Joint Committee of the European Supervisory Authorities (ESAs),_4T
+2024,779,All the European Union Institutions financed via the EU Budget,_4W
+2024,780,All the European Union Institutions not financed via the EU Budget,_4X
+2024,781,All the European Union Institutions,_4Y
+2024,782,Other small European Union Institutions (Ombudsman  Data Protection Supervisor etc.),_4Z
+2024,783,OECD (Organisation for Economic Co-operation and Development),_5A
+2024,784,BIS (Bank for International Settlements),_5B
+2024,785,IADB (Inter-American Development Bank),_5C
+2024,786,AfDB (African Development Bank),_5D
+2024,787,AsDB (Asian Development Bank),_5E
+2024,788,EBRD (European Bank for Reconstruction and Development),_5F
+2024,789,IIC (Inter-American Investment Corporation),_5G
+2024,790,NIB (Nordic Investment Bank),_5H
+2024,791,Eastern Caribbean Central Bank (ECCB),_5I
+2024,792,IBEC (International Bank for Economic Co-operation),_5J
+2024,793,IIB (International Investment Bank),_5K
+2024,794,CDB (Caribbean Development Bank),_5L
+2024,795,AMF (Arab Monetary Fund),_5M
+2024,796,BADEA (Banque arabe pour le développement économique en Afrique),_5N
+2024,901,Countries not relevant for MKR purposes,x5
+2024,902,Not applicable/All geographical areas,x0
+2024,903,Other Countries,x28
+2025,0,Total / No breakdown ,00
+2025,1,Austria,AT
+2025,2,Belgium,BE
+2025,3,Bulgaria,BG
+2025,4,Cyprus,CY
+2025,5,Czech Republic,CZ
+2025,6,Denmark,DK
+2025,7,Estonia,EE
+2025,8,Finland,FI
+2025,9,France,FR
+2025,10,Germany,DE
+2025,11,Greece,GR
+2025,12,Hungary,HU
+2025,13,Iceland,IS
+2025,14,Ireland,IE
+2025,15,Italy,IT
+2025,16,Latvia,LV
+2025,17,Liechtenstein,LI
+2025,18,Lithuania,LT
+2025,19,Luxembourg,LU
+2025,20,Malta,MT
+2025,21,Netherlands,NL
+2025,22,Norway,NO
+2025,23,Poland,PL
+2025,24,Portugal,PT
+2025,25,Romania,RO
+2025,26,Slovakia,SK
+2025,27,Slovenia,SI
+2025,28,Spain,ES
+2025,29,Sweden,SE
+2025,30,United Kingdom,GB
+2025,31,Brazil,BR
+2025,32,Chile,CL
+2025,33,China,CN
+2025,34,Croatia,HR
+2025,35,Hong Kong,HK
+2025,36,India,IN
+2025,37,Japan,JP
+2025,38,Mexico,MX
+2025,39,Peru,PE
+2025,40,Russian Federation,RU
+2025,41,Switzerland,CH
+2025,42,Turkey,TR
+2025,43,United States,US
+2025,44,International organisations,IZ
+2025,50,Afghanistan,AF
+2025,51,Albania,AL
+2025,52,Algeria,DZ
+2025,53,American Samoa,AS
+2025,54,Andorra,AD
+2025,55,Angola,AO
+2025,56,Anguilla,AI
+2025,57,Antigua and Barbuda,AG
+2025,58,Argentina,AR
+2025,59,Armenia,AM
+2025,60,Aruba,AW
+2025,61,Australia,AU
+2025,62,Azerbaijan,AZ
+2025,63,Bahamas,BS
+2025,64,Bahrain,BH
+2025,65,Bangladesh,BD
+2025,66,Barbados,BB
+2025,67,Belarus,BY
+2025,68,Belize,BZ
+2025,69,Benin,BJ
+2025,70,Bermuda,BM
+2025,71,Bhutan,BT
+2025,72,BOLIVIA  PLURINATIONAL STATE OF,BO
+2025,73,BONAIRE  SINT EUSTATIUS AND SABA,BQ
+2025,74,BOSNIA AND HERZEGOVINA,BA
+2025,75,Botswana,BW
+2025,76,British Indian Ocean Territory,IO
+2025,77,Brunei Darussalam,BN
+2025,78,Burkina Faso,BF
+2025,79,Burundi,BI
+2025,80,Cambodia,KH
+2025,81,Cameroon,CM
+2025,82,Canada,CA
+2025,83,Cape Verde,CV
+2025,84,Cayman Islands,KY
+2025,85,Central African Republic,CF
+2025,86,Chad,TD
+2025,87,Channel Islands,CS
+2025,88,Colombia,CO
+2025,89,Comoros,KM
+2025,90,CONGO  THE DEMOCRATIC REPUBLIC OF THE,CD
+2025,91,CONGO,CG
+2025,92,Cook Islands,CK
+2025,93,Costa Rica,CR
+2025,94,CÔTE D'IVOIRE,CI
+2025,95,Cuba,CU
+2025,96,CURAÇAO,CW
+2025,97,Djibouti,DJ
+2025,98,Dominica,DM
+2025,99,Dominican Republic,DO
+2025,100,Ecuador,EC
+2025,101,Egypt,EG
+2025,102,El Salvador,SV
+2025,103,Equatorial Guinea,GQ
+2025,104,Eritrea,ER
+2025,105,Ethiopia,ET
+2025,106,Faroe Islands,FO
+2025,107,Falkland Islands (MALVINAS),FK
+2025,108,Fiji,FJ
+2025,109,French Guiana,GF
+2025,110,French Polynesia,PF
+2025,111,NORTH MACEDONIA,MK
+2025,112,Gabon,GA
+2025,113,Gambia,GM
+2025,114,Georgia,GE
+2025,115,Ghana,GH
+2025,116,Gibraltar,GI
+2025,117,Greenland,GL
+2025,118,Grenada,GD
+2025,119,Guadeloupe,GP
+2025,120,Guam,GU
+2025,121,Guatemala,GT
+2025,122,Guinea,GN
+2025,123,Guinea-Bissau,GW
+2025,124,Guyana,GY
+2025,125,Haiti,HT
+2025,126,Holy See (Vatican City State),VA
+2025,127,Honduras,HN
+2025,128,Indonesia,ID
+2025,129,IRAN  ISLAMIC REPUBLIC OF,IR
+2025,130,Iraq,IQ
+2025,131,Isle of Man,IM
+2025,132,Israel,IL
+2025,133,Jamaica,JM
+2025,134,Jordan,JO
+2025,135,Kazakhstan,KZ
+2025,136,Kenya,KE
+2025,137,Kiribati,KI
+2025,138,KOREA  DEMOCRATIC PEOPLE'S REPUBLIC OF,KP
+2025,139,KOREA  REPUBLIC OF,KR
+2025,140,Kosovo,XK
+2025,141,Kuwait,KW
+2025,142,Kyrgyzstan,KG
+2025,143,LAO PEOPLE'S DEMOCRATIC REPUBLIC,LA
+2025,144,Lebanon,LB
+2025,145,Lesotho,LS
+2025,146,Liberia,LR
+2025,147,Libya,LY
+2025,148,Macao,MO
+2025,149,Madagascar,MG
+2025,150,Malawi,MW
+2025,151,Malaysia,MY
+2025,152,Maldives,MV
+2025,153,Mali,ML
+2025,154,Marshall Islands,MH
+2025,155,Martinique,MQ
+2025,156,Mauritania,MR
+2025,157,Mauritius,MU
+2025,158,Mayotte,YT
+2025,159,MICRONESIA  FEDERATED STATES OF,FM
+2025,160,MOLDOVA  REPUBLIC OF,MD
+2025,161,Monaco,MC
+2025,162,Mongolia,MN
+2025,163,Montenegro,ME
+2025,164,Montserrat,MS
+2025,165,Morocco,MA
+2025,166,Mozambique,MZ
+2025,167,Myanmar,MM
+2025,168,Namibia,NA
+2025,169,Nauru,NR
+2025,170,Nepal,NP
+2025,171,New Caledonia,NC
+2025,172,New Zealand,NZ
+2025,173,Nicaragua,NI
+2025,174,Niger,NE
+2025,175,Nigeria,NG
+2025,176,Niue,NU
+2025,177,Northern Mariana Islands,MP
+2025,178,Oman,OM
+2025,179,Pakistan,PK
+2025,180,Palau,PW
+2025,181,Panama,PA
+2025,182,Papua New Guinea,PG
+2025,183,Paraguay,PY
+2025,184,Philippines,PH
+2025,185,Pitcairn,PN
+2025,186,Puerto Rico,PR
+2025,187,Qatar,QA
+2025,188,RÉUNION,RE
+2025,189,Rwanda,RW
+2025,190,SAINT HELENA  ASCENSION AND TRISTAN DA CUNHA,SH
+2025,191,Saint Kitts and Nevis,KN
+2025,192,Saint Lucia,LC
+2025,193,SAINT MARTIN (FRENCH PART),MF
+2025,194,Saint Vincent and the Grenadines,VC
+2025,195,SAINT PIERRE AND MIQUELON,PM
+2025,196,Samoa,WS
+2025,197,San Marino,SM
+2025,198,Sao Tome and Principe,ST
+2025,199,Saudi Arabia,SA
+2025,200,Senegal,SN
+2025,201,Serbia,RS
+2025,202,Seychelles,SC
+2025,203,Sierra Leone,SL
+2025,204,Singapore,SG
+2025,205,SINT MAARTEN (DUTCH PART),SX
+2025,206,Solomon Islands,SB
+2025,207,Somalia,SO
+2025,208,South Africa,ZA
+2025,209,South Sudan,SS
+2025,210,Sri Lanka,LK
+2025,211,Sudan,SD
+2025,212,Suriname,SR
+2025,213,SVALBARD AND JAN MAYEN,SJ
+2025,214,Swaziland,SZ
+2025,215,SYRIAN ARAB REPUBLIC,SY
+2025,216,TAIWAN  PROVINCE OF CHINA,TW
+2025,217,Tajikistan,TJ
+2025,218,TANZANIA  UNITED REPUBLIC OF,TZ
+2025,219,Thailand,TH
+2025,220,Timor-Leste,TL
+2025,221,Togo,TG
+2025,222,Tokelau,TK
+2025,223,Tonga,TO
+2025,224,Trinidad and Tobago,TT
+2025,225,Tunisia,TN
+2025,226,Turkmenistan,TM
+2025,227,Turks and Caicos Islands,TC
+2025,228,Tuvalu,TV
+2025,229,Uganda,UG
+2025,230,Ukraine,UA
+2025,231,United Arab Emirates,AE
+2025,232,United States Minor Outlying Islands,UM
+2025,233,Uruguay,UY
+2025,234,Uzbekistan,UZ
+2025,235,Vanuatu,VU
+2025,236,VENEZUELA  BOLIVARIAN REPUBLIC OF,VE
+2025,237,VIET NAM,VN
+2025,238,WALLIS AND FUTUNA,WF
+2025,239,West Bank and Gaza,WE
+2025,240,Western Sahara,EH
+2025,241,Yemen,YE
+2025,242,Zambia,ZM
+2025,243,Zimbabwe,ZW
+2025,244,Other,O1
+2025,245,Other Central and eastern Europe countries non EEA,O2
+2025,246,Middle East,O3
+2025,247,Latin America and the Caribbean,O4
+2025,248,Africa,O5
+2025,249,Other advanced economies non EEA,O6
+2025,250,NORFOLK ISLAND,NF
+2025,251,PALESTINIAN TERRITORY  OCCUPIED,PS
+2025,252,SAINT BARTHÉLEMY,BL
+2025,253,SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS,GS
+2025,254,VIRGIN ISLANDS  BRITISH,VG
+2025,255,VIRGIN ISLANDS  U.S.,VI
+2025,256,ÅLAND ISLANDS,AX
+2025,257,ANTARCTICA,AQ
+2025,258,BOUVET ISLAND,BV
+2025,259,CHRISTMAS ISLAND,CX
+2025,260,COCOS (KEELING) ISLANDS,CC
+2025,261,FRENCH SOUTHERN TERRITORIES,TF
+2025,262,GUERNSEY,GG
+2025,263,HEARD ISLAND AND MCDONALD ISLANDS,HM
+2025,264,JERSEY,JE
+2025,701,Banque Centrale des États de l’Afrique de l’Ouest (BCEAO),_5O
+2025,702,CASDB (Central African States’ Development Bank),_5P
+2025,703,African Development Fund,_5Q
+2025,704,Asian Development Fund,_5R
+2025,705,Fonds spécial unifié de développement,_5S
+2025,706,CABEI (Central American Bank for Economic Integration),_5T
+2025,707,ADC (Andean Development Corporation),_5U
+2025,708,Other International Organisations (financial institutions),_5V
+2025,709,Banque des États de l’Afrique centrale (BEAC),_5W
+2025,710,Communauté Économique et Monétaire de l’Afrique Centrale (CEMAC),_5X
+2025,711,Eastern Caribbean Currency Union (ECCU),_5Y
+2025,712,Other International Financial Organisations n.i.e.,_5Z
+2025,713,Other International Organisations (non-financial institutions),_6A
+2025,714,NATO (North Atlantic Treaty Organisation),_6B
+2025,715,Council of Europe,_6C
+2025,716,ICRC (International Committee of the Red Cross),_6D
+2025,717,ESA (European Space Agency),_6E
+2025,718,EPO (European Patent Office),_6F
+2025,719,EUROCONTROL (European Organisation for the Safety of Air Navigation),_6G
+2025,720,EUTELSAT (European Telecommunications Satellite Organisation),_6H
+2025,721,West African Economic and Monetary Union (WAEMU),_6I
+2025,722,INTELSAT (International Telecommunications Satellite Organisation),_6J
+2025,723,EBU/UER (European Broadcasting Union/Union européenne de radio-télévision),_6K
+2025,724,EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites),_6L
+2025,725,ESO (European Southern Observatory),_6M
+2025,726,ECMWF (European Centre for Medium-Range Weather Forecasts),_6N
+2025,727,EMBL (European Molecular Biology Laboratory),_6O
+2025,728,CERN (European Organisation for Nuclear Research),_6P
+2025,729,IOM (International Organisation for Migration),_6Q
+2025,730,Islamic Development Bank (IDB),_6R
+2025,731,Eurasian Development Bank (EDB),_6S
+2025,732,Paris Club Creditor Institutions,_6T
+2025,733,Council of Europe Development Bank (CEB),_6U
+2025,734,Other International Non-Financial Organisations n.i.e.,_6Z
+2025,735,International Organisations excluding European Union Institutions,_7Z
+2025,736,International Union of Credit and Investment Insurers,_8A
+2025,737,Multilateral Lending Agencies,_9B
+2025,738,International organisations (as pseudo geographic area),_1A
+2025,739,United Nations organisations,_1B
+2025,740,IMF (International Monetary Fund),_1C
+2025,741,WTO (World Trade Organisation),_1D
+2025,742,IBRD (International Bank for Reconstruction and Development),_1E
+2025,743,IDA (International Development Association),_1F
+2025,744,Other UN Organisations (includes 1H  1J-1T),_1G
+2025,745,UNESCO (United Nations Educational  Scientific and Cultural Organisation),_1H
+2025,746,FAO (Food and Agriculture Organisation),_1J
+2025,747,WHO (World Health Organisation),_1K
+2025,748,IFAD (International Fund for Agricultural Development),_1L
+2025,749,IFC (International Finance Corporation),_1M
+2025,750,MIGA (Multilateral Investment Guarantee Agency),_1N
+2025,751,UNICEF (United Nations Children’s Fund),_1O
+2025,752,UNHCR (United Nations High Commissioner for Refugees),_1P
+2025,753,UNRWA (United Nations Relief and Works Agency for Palestine),_1Q
+2025,754,IAEA (International Atomic Energy Agency),_1R
+2025,755,ILO (International Labour Organisation),_1S
+2025,756,ITU (International Telecommunication Union),_1T
+2025,757,Rest of UN Organisations n.i.e.,_1Z
+2025,758,European Union Institutions  Organs and Organisms (excluding ECB),_4A
+2025,759,EMS (European Monetary System),_4B
+2025,760,EIB (European Investment Bank),_4C
+2025,761,EC (European Commission),_4D
+2025,762,EDF (European Development Fund),_4E
+2025,763,European Central Bank,_4F
+2025,764,EIF (European Investment Fund),_4G
+2025,765,ECSC (European Coal and Steel Community),_4H
+2025,766,Neighbourhood Investment Facility,_4I
+2025,767,FEMIP (Facility for Euro-Mediterranean Investment and Partnership),_4V
+2025,768,Other EU Institutions  Organs and Organisms covered by the General budget,_4J
+2025,769,European Parliament,_4K
+2025,770,Council of the European Union,_4L
+2025,771,Court of Justice,_4M
+2025,772,Court of Auditors,_4N
+2025,773,European Council,_4O
+2025,774,Economic and Social Committee,_4P
+2025,775,Committee of the Regions,_4Q
+2025,776,EU-Africa Infrastructure Trust Fund,_4R
+2025,777,European Stability Mechanism (ESM),_4S
+2025,778,Joint Committee of the European Supervisory Authorities (ESAs),_4T
+2025,779,All the European Union Institutions financed via the EU Budget,_4W
+2025,780,All the European Union Institutions not financed via the EU Budget,_4X
+2025,781,All the European Union Institutions,_4Y
+2025,782,Other small European Union Institutions (Ombudsman  Data Protection Supervisor etc.),_4Z
+2025,783,OECD (Organisation for Economic Co-operation and Development),_5A
+2025,784,BIS (Bank for International Settlements),_5B
+2025,785,IADB (Inter-American Development Bank),_5C
+2025,786,AfDB (African Development Bank),_5D
+2025,787,AsDB (Asian Development Bank),_5E
+2025,788,EBRD (European Bank for Reconstruction and Development),_5F
+2025,789,IIC (Inter-American Investment Corporation),_5G
+2025,790,NIB (Nordic Investment Bank),_5H
+2025,791,Eastern Caribbean Central Bank (ECCB),_5I
+2025,792,IBEC (International Bank for Economic Co-operation),_5J
+2025,793,IIB (International Investment Bank),_5K
+2025,794,CDB (Caribbean Development Bank),_5L
+2025,795,AMF (Arab Monetary Fund),_5M
+2025,796,BADEA (Banque arabe pour le développement économique en Afrique),_5N
+2025,901,Countries not relevant for MKR purposes,x5
+2025,902,Not applicable/All geographical areas,x0
+2025,903,Other Countries,x28

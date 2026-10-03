@@ -1,0 +1,25 @@
+variable,type_unit,role,definition,source
+lei,Categorical (text),Identifier,Bank Legal Entity Identifier,EBA
+nsa,Categorical (ISO code),Identifier,Bank home country,EBA
+cpty_country,Categorical (ISO code),Identifier / join key,Counterparty country of the exposure,EBA
+exposure_class,Categorical (4 levels),Independent,IRB exposure class,EBA
+quarter_end,Date,Identifier,Reference date (quarter end),EBA
+trend,Integer (quarters),Control,Time index 1-20,Derived
+orig_exp,Continuous (EUR million),Input / weight,Original exposure,EBA tr_cre
+def_exp,Continuous (EUR million),Input,Original exposure of which defaulted,EBA tr_cre
+der,Continuous (%),Derived,def_exp / orig_exp x 100,Derived
+d_der,Continuous (pp),Dependent RQ1-RQ3,Quarter-on-quarter change in der,Derived
+d_der_next,Continuous (pp),Dependent RQ3 (forecast target),Next quarter's d_der,Derived
+rise_next,Binary (0/1),Dependent RQ4,1 if d_der_next > 0.10 pp,Derived
+unemp,Continuous (% of labour force),Independent,"Unemployment rate 15-74 SA, lag 1q",Eurostat une_rt_q
+d_unemp,Continuous (pp),Independent (key),"Year-on-year change in unemp, lag 1q",Eurostat une_rt_q
+gdp_growth,Continuous (%),Independent,"Real GDP y/y growth, lag 1q",Eurostat namq_10_gdp
+hpi_growth,Continuous (%),Independent,"House price index annual change, lag 1q",Eurostat prc_hpi_q
+inflation,Continuous (%),Independent,"HICP annual rate, quarterly mean, lag 1q",Eurostat prc_hicp_manr
+lt_rate,Continuous (% p.a.),Independent,"Long-term government bond yield, lag 1q",Eurostat irt_lt_mcby_q
+ecb_rate_house,Continuous (% p.a.),Robustness,"Cost of borrowing, household house purchase, lag 1q (euro area + BG)",ECB MIR
+ecb_rate_nfc,Continuous (% p.a.),Robustness,"Cost of borrowing, non-financial corporations, lag 1q (euro area + BG)",ECB MIR
+log_assets,Continuous (log EUR million),Control,"Log total assets, lag 1q",EBA tr_oth
+cet1_ratio,Continuous (%),Control,"CET1 ratio (transitional), lag 1q",EBA tr_oth
+stage2_share,Continuous (%),Control,"Stage 2 share of gross loans at amortised cost, lag 1q",EBA tr_oth
+cross_border,Binary (0/1),Independent,1 if cpty_country differs from nsa,Derived
