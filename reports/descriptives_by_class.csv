@@ -1,0 +1,5 @@
+exposure_class,records,der_mean,der_median,d_der_mean,d_der_sd,rise_rate
+Corporates,5211,1.81,0.678,-0.024,0.739,0.159
+Other retail,3407,4.437,2.964,0.001,1.206,0.33
+Retail qualifying revolving,1650,2.255,1.044,-0.01,0.652,0.227
+Retail secured by real estate,3941,1.826,0.981,-0.045,0.846,0.166

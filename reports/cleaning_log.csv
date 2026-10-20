@@ -1,0 +1,8 @@
+step,records
+"Extracted IRB cells (4 classes, country breakdown), 2021-2025 exercises",39304
+"Exact duplicate keys removed (bank, quarter, country, class): 0",39304
+Kept EU/EEA counterparty countries,26588
+Removed near-empty books (original exposure < EUR 1 million),16924
+Analysis panel (after joins and lags),16924
+Complete records for RQ1-RQ2 (d_der and all lagged inputs present),14209
+Complete records for RQ3-RQ4 (next-quarter target present),13116

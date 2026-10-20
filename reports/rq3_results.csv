@@ -1,0 +1,5 @@
+model,rmse,mae,oos_r2
+No-change baseline (0),0.8575,0.3542,-0.0003
+Training-mean baseline,0.8584,0.3604,-0.0023
+Linear satellite (OLS),0.8505,0.3711,0.016
+XGBoost regressor,0.8487,0.3667,0.0201

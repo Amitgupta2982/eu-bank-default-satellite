@@ -1,0 +1,4 @@
+specification,n,coef_d_unemp,se,r2_within,p
+Books >= EUR 10 million,11943,-0.0048,0.0076,0.0099,0.5315
+ECB house-purchase rate replaces lt_rate (euro area + BG),12141,0.0055,0.0081,0.008,0.5017
+Raw d_der (not winsorised),14209,-0.0039,0.0236,0.0018,0.8692

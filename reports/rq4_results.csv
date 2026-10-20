@@ -1,0 +1,6 @@
+model,auc,brier,precision,recall,f1
+Naive: flag all,0.5,0.1711,0.2191,1.0,0.3594
+Logistic regression,0.6879,0.2378,0.3602,0.5728,0.4423
+XGBoost classifier,0.7192,0.2209,0.3356,0.712,0.4562
+"Logistic regression (unweighted, calibration check)",0.6818,0.1594,,,
+"XGBoost classifier (unweighted, calibration check)",0.7181,0.1541,,,
