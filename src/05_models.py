@@ -23,7 +23,7 @@ from config import PROCESSED, ROOT, FIG, SEED, RISE_THRESHOLD_PP
 REP = ROOT / "reports"
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e4e3df"
 BLUE, ORANGE, GREEN, GOLD = "#2a78d6", "#eb6834", "#1baf7a", "#eda100"
-plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.edgecolor": INK2,
+plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11.5, "axes.edgecolor": INK2,
                      "axes.labelcolor": INK, "xtick.color": INK2, "ytick.color": INK2})
 np.random.seed(SEED)
 
@@ -314,53 +314,88 @@ imp.sort_values("rq4_share", ascending=False).round(4).to_csv(REP / "shap_import
 
 # ---------------------------------------------------------------- figures
 # Figure: RQ2 class slopes with 95% CI
-fig, ax = plt.subplots(figsize=(7.2, 2.8), dpi=220)
+fig, ax = plt.subplots(figsize=(7.2, 3.5), dpi=220)
 sl = slopes.set_index("class").reindex(CLS[::-1])
 yy = np.arange(len(sl))
 ax.errorbar(sl.slope, yy, xerr=[sl.slope - sl.ci_lo, sl.ci_hi - sl.slope], fmt="o", color=BLUE, ecolor=BLUE,
             ms=6, lw=2, capsize=3)
 ax.axvline(0, color=INK2, lw=0.8)
-ax.set_yticks(yy, [f"{c} (n = {n:,})" for c, n in zip(sl.index, sl.n)])
+ax.set_yticks(yy, [f"{c}\n(n = {n:,})" for c, n in zip(sl.index, sl.n)])
 for yi, (v, hi_) in enumerate(zip(sl.slope, sl.ci_hi)):
-    ax.text(hi_ + 0.004, yi, f"{v:+.3f}", va="center", fontsize=8, color=INK2)
-ax.set_xlabel("Change in DER (pp) per 1 pp rise in unemployment (lagged); bars = 95% CI")
+    ax.text(hi_ + 0.004, yi, f"{v:+.3f}", va="center", fontsize=10, color=INK2)
+ax.set_xlabel("Change in DER (pp) per 1 pp rise in unemployment")
+ax.set_xlim(-0.065, 0.06)
 style(ax, "x")
-plt.tight_layout(); plt.savefig(FIG / "fig_rq2_slopes.png", facecolor="white"); plt.close()
+plt.tight_layout(); plt.savefig(FIG / "fig_rq2_slopes.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
 
 # Figure: ROC curves
-fig, ax = plt.subplots(figsize=(4.6, 4.2), dpi=220)
+fig, ax = plt.subplots(figsize=(5.4, 5.0), dpi=220)
 for name, s, col, ls in [("XGBoost", s_xgb, BLUE, "-"), ("Logistic regression", s_log, ORANGE, "--")]:
     fpr, tpr, _ = roc_curve(yte, s)
     ax.plot(fpr, tpr, ls, color=col, lw=2, label=f"{name} (AUC = {roc_auc_score(yte, s):.3f})")
 ax.plot([0, 1], [0, 1], ":", color=INK2, lw=1, label="No skill (AUC = 0.500)")
 ax.set_xlabel("False positive rate"); ax.set_ylabel("True positive rate")
-ax.legend(frameon=False, fontsize=8, loc="lower right"); style(ax, "both")
-plt.tight_layout(); plt.savefig(FIG / "fig_roc.png", facecolor="white"); plt.close()
+ax.legend(frameon=False, fontsize=10, loc="lower right"); style(ax, "both")
+plt.tight_layout(); plt.savefig(FIG / "fig_roc.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
 
-# Figure: SHAP importance (both models)
+# Figure: SHAP importance (both models), with value labels
 o = imp.sort_values("rq4_share")
-fig, ax = plt.subplots(figsize=(7.2, 4.0), dpi=220)
-yy = np.arange(len(o)); h = 0.38
+NICE["log_assets"] = "Bank size"
+fig, ax = plt.subplots(figsize=(6.6, 7.2), dpi=220)
+yy = np.arange(len(o)); h = 0.4
 ax.barh(yy + h / 2, 100 * o.rq4_share, h, color=BLUE, label="RQ4 classifier (rise next quarter)")
 ax.barh(yy - h / 2, 100 * o.rq3_share, h, color=ORANGE, label="RQ3 regressor (change next quarter)")
+for yv, a4, a3 in zip(yy, 100 * o.rq4_share, 100 * o.rq3_share):
+    ax.text(a4 + 0.4, yv + h / 2, f"{a4:.1f}", va="center", fontsize=10, color=INK)
+    ax.text(a3 + 0.4, yv - h / 2, f"{a3:.1f}", va="center", fontsize=10, color=INK)
 ax.set_yticks(yy, [NICE[f] for f in o.feature])
-ax.set_xlabel("Share of mean |SHAP value| on the test set (%)"); style(ax, "x")
-ax.legend(frameon=False, fontsize=8, loc="lower right")
-plt.tight_layout(); plt.savefig(FIG / "fig_shap.png", facecolor="white"); plt.close()
+ax.set_xlabel("Share of total importance (mean |SHAP|, %)"); style(ax, "x"); ax.set_xlim(0, 44)
+ax.legend(frameon=False, fontsize=10.5, loc="lower right")
+plt.tight_layout(); plt.savefig(FIG / "fig_shap.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
 
-# Figure: RQ3 MAE by class (with the no-change baseline)
-fig, ax = plt.subplots(figsize=(7.2, 3.0), dpi=220)
-xx = np.arange(len(CLS)); w = 0.26
+# Figure: RQ3 MAE by class (horizontal bars, value labels; with the no-change baseline)
+fig, ax = plt.subplots(figsize=(7.2, 5.4), dpi=220)
+yy = np.arange(len(CLS))[::-1] * 1.0; h = 0.26
 for k, (col, lab, c) in enumerate([("ae_0", "No-change baseline", GREEN), ("ae_lin", "Linear satellite (OLS)", ORANGE),
                                     ("ae_xgb", "XGBoost regressor", BLUE)]):
-    ax.bar(xx + (k - 1) * w, mae_cls[col], w * 0.92, color=c, label=lab)
-    for i, v in enumerate(mae_cls[col]):
-        ax.text(i + (k - 1) * w, v + 0.006, f"{v:.2f}", ha="center", fontsize=7, color=INK2)
-ax.set_xticks(xx, ["Corporates", "Retail secured\nby real estate", "Retail qualifying\nrevolving", "Other retail"])
-ax.set_ylabel("Test MAE (pp)"); style(ax)
-ax.legend(frameon=False, fontsize=8, ncol=3, loc="upper left")
-ax.set_ylim(0, mae_cls.values.max() * 1.18)
-plt.tight_layout(); plt.savefig(FIG / "fig_rq3_errors.png", facecolor="white"); plt.close()
+    pos = yy + (1 - k) * h
+    ax.barh(pos, mae_cls[col], h * 0.88, color=c, label=lab)
+    for py, v in zip(pos, mae_cls[col]):
+        ax.text(v + 0.008, py, f"{v:.3f}", va="center", ha="left", fontsize=11, color=INK)
+ax.set_yticks(yy, ["Corporates", "Retail secured\nby real estate", "Retail qualifying\nrevolving", "Other retail"])
+ax.set_xlabel("Test mean absolute error (pp) — shorter bar = more accurate"); ax.set_xlim(0, 0.78); style(ax, "x")
+ax.legend(frameon=False, fontsize=11, ncol=3, loc="lower center", bbox_to_anchor=(0.42, 1.0), handlelength=1.2, columnspacing=1.0)
+plt.savefig(FIG / "fig_rq3_errors.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
+
+
+# ---------------------------------------------------------------- extra checks (interim v3)
+# RQ3 on the raw (uncapped) test target
+y_raw = te.d_der_next.values
+raw = {k: (float(np.sqrt(((y_raw - v) ** 2).mean())), float(np.abs(y_raw - v).mean())) for k, v in preds.items()}
+# RQ4: cell-block bootstrap of the AUC difference (records of the same cell resampled together)
+cells_te = te.cell.values
+uc = np.unique(cells_te)
+idx_by_cell = {c: np.where(cells_te == c)[0] for c in uc}
+rng_b = np.random.default_rng(SEED)
+diffs = []
+for _ in range(999):
+    pick = np.concatenate([idx_by_cell[c] for c in rng_b.choice(uc, len(uc))])
+    if yte[pick].min() == yte[pick].max():
+        continue
+    diffs.append(roc_auc_score(yte[pick], s_xgb[pick]) - roc_auc_score(yte[pick], s_log[pick]))
+diffs = np.array(diffs)
+boot_auc = dict(ci_lo=float(np.percentile(diffs, 2.5)), ci_hi=float(np.percentile(diffs, 97.5)),
+                share_le0=float((diffs <= 0).mean()), se=float(diffs.std()))
+# RQ1 residual diagnostics
+res1 = m1.resid
+d1r = cc.assign(res=res1.values).sort_values("quarter_end")
+d1r["res_lag"] = d1r.groupby("cell").res.shift(1)
+dd = d1r.dropna(subset=["res_lag"])
+ar1_res = float(np.corrcoef(dd.res, dd.res_lag)[0, 1])
+diag = dict(resid_skew=float(stats.skew(res1)), resid_kurt=float(stats.kurtosis(res1)), resid_ar1=ar1_res,
+            country_quarters=int(cc.groupby(["cpty_country", "quarter_end"]).ngroups))
+json.dump(dict(raw_target=raw, boot_auc=boot_auc, diag=diag), open(REP / "extra_checks.json", "w"), indent=1)
+print(raw, boot_auc, diag)
 
 tests = dict(n_rq1=len(cc), n_fe=int(cc.fe.nunique()), clusters=int(G), r2w_rq1=float(r2w1), r2w_rq2=float(r2w2),
              t_obs=float(t_obs), p_wild=p_wild, win_lo=float(lo), win_hi=float(hi),

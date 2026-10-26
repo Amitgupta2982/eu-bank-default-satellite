@@ -18,7 +18,7 @@ PAL = {"Corporates": "#2a78d6", "Retail secured by real estate": "#eb6834",
        "Retail qualifying revolving": "#1baf7a", "Other retail": "#eda100"}
 STY = {"Corporates": "-", "Retail secured by real estate": "--", "Retail qualifying revolving": ":", "Other retail": "-."}
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e4e3df"
-plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.edgecolor": INK2,
+plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11.5, "axes.edgecolor": INK2,
                      "axes.labelcolor": INK, "xtick.color": INK2, "ytick.color": INK2})
 FEATS = ["unemp", "d_unemp", "gdp_growth", "hpi_growth", "inflation", "lt_rate",
          "log_assets", "cet1_ratio", "stage2_share"]
@@ -87,64 +87,78 @@ corr.to_csv(REP / "correlations.csv")
 # ---------------------------------------------------------------- Figure: DER by class over time (exposure-weighted)
 w = p.groupby(["quarter_end", "exposure_class"]).apply(
     lambda d: 100 * d.def_exp.sum() / d.orig_exp.sum(), include_groups=False).unstack()
-fig, ax = plt.subplots(figsize=(7.2, 3.4), dpi=220)
+fig, ax = plt.subplots(figsize=(7.2, 3.9), dpi=220)
 for cl in CLASSES.values():
     ax.plot(w.index, w[cl], STY[cl], color=PAL[cl], lw=2, label=cl)
-    ax.text(w.index[-1] + pd.Timedelta(days=25), w[cl].iloc[-1], f"{w[cl].iloc[-1]:.1f}%", va="center", fontsize=8, color=INK2)
-ax.set_ylabel("Defaulted exposure ratio (%)"); style(ax)
-ax.legend(frameon=False, ncol=2, fontsize=8, loc="upper center", bbox_to_anchor=(0.5, -0.12))
-plt.tight_layout(); plt.savefig(FIG / "fig_der_by_class.png", facecolor="white"); plt.close()
+    ax.text(w.index[-1] + pd.Timedelta(days=25), w[cl].iloc[-1], f"{w[cl].iloc[-1]:.1f}%", va="center", fontsize=10, color=INK2)
+for cl, dates in {"Other retail": ["2020-09-30", "2022-12-31", "2024-12-31"], "Corporates": ["2020-09-30", "2023-03-31", "2024-09-30"]}.items():
+    for d in dates:
+        dt = pd.Timestamp(d); v = w.loc[dt, cl]
+        ax.plot([dt], [v], "o", color=PAL[cl], ms=5)
+        ax.annotate(f"{v:.1f}%", (dt, v), textcoords="offset points", xytext=(0, 7), ha="center", fontsize=9.5, color=INK)
+ax.set_ylim(0.8, w.max().max() + 0.5)
+ax.set_ylabel("Defaulted exposure ratio (%)"); ax.set_xlabel("Quarter end"); style(ax)
+ax.legend(frameon=False, ncol=2, fontsize=10, loc="upper center", bbox_to_anchor=(0.5, -0.2))
+plt.tight_layout(); plt.savefig(FIG / "fig_der_by_class.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
 
 # ---------------------------------------------------------------- Figure: distribution of d_der
-fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.8), dpi=220)
-axes[0].hist(cc.d_der.clip(-5, 5), bins=80, color="#2a78d6", edgecolor="white", linewidth=0.4)
-axes[0].set_title("Raw (display clipped at ±5 pp)", fontsize=9, color=INK)
-axes[1].hist(cc.d_der_w, bins=60, color="#2a78d6", edgecolor="white", linewidth=0.4)
-axes[1].set_title(f"Winsorised at 1st/99th percentile ({p01:.2f}, {p99:.2f})", fontsize=9, color=INK)
+fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.5), dpi=220)
+axes[0].hist(cc.d_der.clip(-5, 5), bins=np.linspace(-5, 5, 81), color="#2a78d6", edgecolor="white", linewidth=0.4)
+axes[0].set_title("Raw values (shown within ±5 pp)", fontsize=11, color=INK)
+axes[1].hist(cc.d_der_w, bins=np.linspace(-5, 5, 81), color="#2a78d6", edgecolor="white", linewidth=0.4)
+axes[1].set_title("Capped at 1st and 99th percentiles", fontsize=11, color=INK)
 for a in axes:
     a.set_xlabel("Quarterly change in DER (pp)"); style(a)
-axes[0].set_ylabel("Records")
-plt.tight_layout(); plt.savefig(FIG / "fig_d_der_hist.png", facecolor="white"); plt.close()
+axes[0].set_ylabel("Records"); axes[1].set_ylabel("Records")
+plt.tight_layout(); plt.savefig(FIG / "fig_d_der_hist.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
 
 # ---------------------------------------------------------------- Figure: binned d_der vs d_unemp (RQ1/RQ2)
 cc["bin"] = pd.qcut(cc.d_unemp, 5, duplicates="drop")
-fig, ax = plt.subplots(figsize=(7.2, 3.2), dpi=220)
-for cl in ["Retail secured by real estate", "Other retail", "Corporates"]:
+fig, ax = plt.subplots(figsize=(7.2, 3.9), dpi=220)
+for off, cl in zip([-0.045, -0.015, 0.015, 0.045], ["Retail secured by real estate", "Other retail", "Corporates", "Retail qualifying revolving"]):
     g = cc[cc.exposure_class == cl].groupby("bin", observed=True).agg(x=("d_unemp", "mean"), y=("d_der_w", "mean"), n=("d_der_w", "size"),
                                                                         s=("d_der_w", "sem"))
-    ax.errorbar(g.x, g.y, yerr=1.96 * g.s, fmt="o", ls=STY[cl], color=PAL[cl],
+    ax.errorbar(g.x + off, g.y, yerr=1.96 * g.s, fmt="o", ls=STY[cl], color=PAL[cl],
                 lw=2, ms=6, capsize=2, label=cl)
 ax.axhline(0, color=INK2, lw=0.8)
-ax.set_xlabel("Year-on-year change in unemployment, lagged one quarter (pp), quintile means")
+ax.set_xlabel("Change in unemployment over the past year (pp), grouped into fifths")
 ax.set_ylabel("Mean change in DER (pp)"); style(ax)
-ax.legend(frameon=False, fontsize=8, ncol=3, loc="upper center", bbox_to_anchor=(0.5, -0.2))
-plt.tight_layout(); plt.savefig(FIG / "fig_binned_unemp.png", facecolor="white"); plt.close()
+ax.legend(frameon=False, fontsize=10, ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.24))
+plt.tight_layout(); plt.savefig(FIG / "fig_binned_unemp.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
 
 # ---------------------------------------------------------------- Figure: correlation heatmap (diverging)
 from matplotlib.colors import LinearSegmentedColormap
 cmap = LinearSegmentedColormap.from_list("div", ["#eb6834", "#f4f3f0", "#2a78d6"])
-labels = ["d_der", "unemp", "d_unemp", "gdp", "hpi", "infl", "lt_rate", "log_assets", "cet1", "stage2"]
-fig, ax = plt.subplots(figsize=(5.6, 4.6), dpi=220)
-im = ax.imshow(corr.values, cmap=cmap, vmin=-1, vmax=1)
+labels = ["Change in DER", "Unemployment", "Change in unemp.", "GDP growth", "House prices", "Inflation",
+          "Long-term rate", "Bank size", "CET1 ratio", "Stage 2 share"]
+fig, ax = plt.subplots(figsize=(7.6, 6.6), dpi=220)
+mask = np.triu(np.ones_like(corr.values, dtype=bool), k=1)
+im = ax.imshow(np.ma.array(corr.values, mask=mask), cmap=cmap, vmin=-1, vmax=1)
 ax.set_xticks(range(len(labels)), labels, rotation=45, ha="right"); ax.set_yticks(range(len(labels)), labels)
 for i in range(len(labels)):
-    for j in range(len(labels)):
-        ax.text(j, i, f"{corr.values[i, j]:.2f}", ha="center", va="center", fontsize=6.5, color=INK)
+    for j in range(i + 1):
+        ax.text(j, i, f"{(round(corr.values[i, j], 2) or 0.0):.2f}", ha="center", va="center", fontsize=11, color=INK)
+ax.spines[["top", "right", "left", "bottom"]].set_visible(False)
 cb = plt.colorbar(im, fraction=0.04); cb.outline.set_visible(False)
-plt.tight_layout(); plt.savefig(FIG / "fig_corr.png", facecolor="white"); plt.close()
+plt.tight_layout(); plt.savefig(FIG / "fig_corr.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
 
 # ---------------------------------------------------------------- Figure: share of rises by quarter (RQ4 balance)
 rr = r4.groupby("quarter_end").rise_next.mean() * 100
-fig, ax = plt.subplots(figsize=(7.2, 2.8), dpi=220)
+fig, ax = plt.subplots(figsize=(7.2, 3.5), dpi=220)
 cols = ["#2a78d6" if d < pd.Timestamp("2024-06-30") else "#eb6834" for d in rr.index]
 ax.bar(rr.index, rr.values, width=60, color=cols)
+for d, v in zip(rr.index, rr.values):
+    ax.text(d, v + 0.6, f"{v:.0f}", ha="center", va="bottom", fontsize=8.5, color=INK)
 ax.axhline(100 * r4.rise_next.mean(), color=INK2, lw=0.8, ls="--")
-ax.text(rr.index[0], 100 * r4.rise_next.mean() + 0.8, f"Average {100 * r4.rise_next.mean():.1f}%", fontsize=8, color=INK2)
-ax.set_ylabel("Records followed by a rise > 0.10 pp (%)"); style(ax)
+ax.text(rr.index[-1] + pd.Timedelta(days=50), 100 * r4.rise_next.mean(), f"Average\n{100 * r4.rise_next.mean():.1f}%", fontsize=10, color=INK2, va="center")
+import matplotlib.dates as mdates
+ax.set_xticks(rr.index, [f"Q{(d.month - 1) // 3 + 1}-{str(d.year)[2:]}" for d in rr.index], rotation=90, fontsize=9)
+ax.set_ylim(0, rr.max() + 5)
+ax.set_ylabel("Followed by a rise (%)"); ax.set_xlabel("Forecast quarter"); style(ax)
 from matplotlib.patches import Patch
 ax.legend(handles=[Patch(color="#2a78d6", label="Training origins"), Patch(color="#eb6834", label="Test origins (Jun 2024 to Mar 2025)")],
-          frameon=False, fontsize=8, ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.12))
-plt.tight_layout(); plt.savefig(FIG / "fig_rise_rate.png", facecolor="white"); plt.close()
+          frameon=False, fontsize=10, ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.42))
+plt.tight_layout(); plt.savefig(FIG / "fig_rise_rate.png", facecolor="white", bbox_inches="tight", pad_inches=0.1); plt.close()
 
 summary = dict(dups=int(dups), first_q_missing=first_q_missing, gap_missing=gap_missing, miss_lt_ctry=miss_ctry,
                miss_s2_banks=int(miss_s2), p01=float(p01), p99=float(p99), beyond3iqr=int(out.beyond_3IQR[0]),
