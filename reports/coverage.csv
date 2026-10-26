@@ -1,10 +1,10 @@
 ,value
-Banks,74.0
-Counterparty countries (EU/EEA),27.0
-Quarterly reference dates,20.0
-Bank-country-class cells,1159.0
-Cell-quarters in panel,16924.0
-Complete cases for RQ1-RQ2 (d_der),14209.0
-Complete cases for RQ3-RQ4 (next-quarter target),13116.0
-Out-of-time test cases (origins Jun 2024-Mar 2025),2885.0
+Banks,74
+Counterparty countries (EU/EEA),27
+Quarterly reference dates,20
+Bank-country-class cells,1159
+Cell-quarters in panel,16924
+Complete cases for RQ1-RQ2 (d_der),14209
+Complete cases for RQ3-RQ4 (next-quarter target),13116
+Out-of-time test cases (origins Jun 2024-Mar 2025),2885
 Share of next-quarter rises > 0.10 pp,0.2096
